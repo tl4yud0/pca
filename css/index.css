@@ -1,0 +1,248 @@
+/*
+.container p{
+    border: solid 1px red
+}
+*/
+
+.btn-pca{
+    background-color: #236095;
+    color: white;
+}
+
+.btn-pca:hover{
+    background-color: #133d9c;
+}
+#header img{
+    width: 100px;
+}
+
+#header .container .navbar-collapse.collapse{
+    justify-content: flex-end;
+
+}
+
+
+.contenet-menu{
+    flex-direction: column;
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #333333;
+    font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-item a:hover {
+    color: #000000;
+}
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+
+#especializacion{
+    position: relative
+}
+
+#especializacion .contenedor-industrias{
+    height:300px; width: 100%;opacity: 0.5;
+    background-color: #000000;position: absolute;z-index: 1;display: flex;justify-content: center;align-items: center;
+}
+
+#especializacion .contenedor-industrias .contenedor-industrias-texto{
+    width: 500px;height:130px;color:white;display: flex
+}
+
+#especializacion .contenedor-industrias .contenedor-industrias-texto .text-left{
+    display: flex;justify-content:center;align-items:center
+}
+#especializacion .contenedor-industrias .contenedor-industrias-texto .text-left p{
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.3px;
+    text-align: right;
+    color: #fbf100;
+}
+
+#especializacion .contenedor-industrias .contenedor-industrias-texto .text-center{
+    padding-left:15px;padding-right:15px; 
+}
+
+#especializacion .contenedor-industrias .contenedor-industrias-texto .text-center p{
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.3px;
+    text-align: right;
+    color: #fbf100;
+    font-size: 5rem
+}
+
+#especializacion .contenedor-industrias .contenedor-industrias-texto .text-right{
+    display: flex;justify-content:center;align-items:center
+}
+
+#especializacion .contenedor-industrias .contenedor-industrias-texto .text-right p{
+    font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.15;
+      letter-spacing: 0.17px;
+      text-align: left;
+      color: #ffffff;
+}
+#footer{
+    background: #236095;
+}
+#footer li, a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+#footer .footer-title{
+    font-weight: bold;
+    color: white;
+}
+
+#footer .footer-text{
+    font-weight: normal;
+    color: white;
+}
+#footer ul{
+    padding: 0;
+}
+#footer p {
+    margin-bottom: 0;
+}
+
+#footer .footer-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar-expand-lg.navbar-collapse{
+    justify-content: flex-end !important;
+
+} 
+
+
+.carousel-indicators li{
+    border-radius:50px;
+    width: 20px;
+    height: 20px;
+}
+
+.quienesSomos-container{
+    background: url(/images/quienessomos.jpg);
+    background-repeat:no-repeat;
+    background-position-y:250px  
+}
+
+#galeria .portfolio-item.row.pics .contenedor-pic {
+    overflow: hidden; 
+    box-sizing: border-box; 
+    overflow: hidden;
+    position: relative;
+}
+
+#galeria .portfolio-item.row.pics .item {
+    overflow: hidden;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+}
+#galeria .portfolio-item.row.pics .item a{
+    overflow: hidden;
+}
+
+#galeria .portfolio-item.row.pics .item img {
+    transition: .3s;
+    overflow: hidden;
+}
+#galeria .portfolio-item.row.pics .item:hover img {
+    overflow: hidden;
+}
+
+#galeria .portfolio-item.row.pics .item:hover .after {
+    opacity: 1;
+    transform: scale(1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#galeria .portfolio-item.row.pics .item:hover .after .principal{
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #fbf100;
+    margin: 0;
+}
+
+#galeria .portfolio-item.row.pics .item:hover .after .aux{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase
+}
+
+#galeria .portfolio-item.row.pics .item:hover .after .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+
+}
+  #galeria .portfolio-item.row.pics .item .after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: center center/3em 3em no-repeat rgb(5 14 69 / 0.65);
+    opacity: 0;
+    transform: scale(0.1);
+    opacity: 0.54;
+    transition: all .3s;
+
+  }
+  
+
+
+@media (max-width: 991.98px) { 
+
+
+    #header .container .navbar-collapse.collapse{
+        justify-content: flex-start;
+    
+    }
+    .contenet-menu {
+        flex-direction: column;
+        display: flex !important;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .align-mobile-left{
+        text-align: left !important;
+
+    }
+}
