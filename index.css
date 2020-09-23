@@ -3,6 +3,15 @@
     border: solid 1px red
 }
 */
+
+.btn-pca{
+    background-color: #236095;
+    color: white;
+}
+
+.btn-pca:hover{
+    background-color: #133d9c;
+}
 #header img{
     width: 100px;
 }
@@ -26,29 +35,12 @@
 .navbar-light .navbar-nav .nav-item a:hover {
     color: #000000;
 }
-#main .carousel-inner img {
+#main .carousel-inner img{
     max-height: 70vh;
     object-fit: cover;
 }
-#carousel {
-    position: relative;
-}
-#carousel .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: white;
-}
-#carousel .overlay .container {
-    height: 100%;
-}
 
-#carousel .overlay .row {
-    height: 100%;
-}
+
 #footer{
     background: #236095;
 }
