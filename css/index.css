@@ -212,11 +212,20 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 
 #galeria .portfolio-item.row.pics .item:hover .after .imgs{
     display: flex;
+    top: 0;
+    left: 0; 
     align-items: center;
     justify-content: space-around;
     width: 50%;
+    opacity: 1;
 
 }
+#galeria .portfolio-item.row.pics .item .after .imgs{
+     top: 0;
+    left: 0;
+    opacity: 0;
+}
+
   #galeria .portfolio-item.row.pics .item .after {
     content: "";
     position: absolute;
