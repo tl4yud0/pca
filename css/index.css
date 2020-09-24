@@ -35,11 +35,41 @@
 .navbar-light .navbar-nav .nav-item a:hover {
     color: #000000;
 }
+#main{
+    position: relative;
+}
 #main .carousel-inner img{
     max-height: 70vh;
     object-fit: cover;
 }
-
+#main .cont-language{
+    position: absolute;
+    z-index: 1;
+    right: 15%;
+    top: 3%;
+}
+#main .cont-language p {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.08;
+    letter-spacing: 0.13px;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main .cont-language p a.espaniol{
+    color: #fbf100;
+    margin-right: 10px;
+}
+#main .cont-language p a.english{
+    color: #ffffff;
+    margin-left: 10px;
+}
 .card{
    -webkit-box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 -moz-box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
