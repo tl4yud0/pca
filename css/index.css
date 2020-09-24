@@ -411,7 +411,7 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     
     #servicios{
         position: none;
-     outline: 1px solid red;
+     /* outline: 1px solid red; */
     }
 
     #servicios .contenedor-industrias{
@@ -442,5 +442,25 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     .align-mobile-left{
         text-align: left !important;
 
+    }
+
+    #servicios .contenedor-industrias{
+        position: relative;
+        background: #111;
+        opacity: 1;
+    }
+
+    #servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
+        align-items: center;
+        margin-top: 20px;
+    }
+    #servicios .contenedor-industrias .contenedor-industrias-texto .text-right{
+        align-items: center;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #servicios .contenedor-industrias .contenedor-industrias-texto .text-right p{
+        text-align: center;
     }
 }
