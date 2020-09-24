@@ -4,6 +4,17 @@
 }
 */
 
+@font-face{
+font-family: 'avenir-book';
+src: url("fonts/AvenirLTStd-Book.otf");
+    font-family: 'avenir-bold';
+src: url("fonts/AvenirLTStd-Black.otf");
+}
+
+body{
+    font-family:'avenir'; 
+}
+
 .btn-pca{
     background-color: #236095;
     color: white;
@@ -82,12 +93,12 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 }
 
 #servicios .contenedor-industrias{
-    height:300px; width: 100%;opacity: 0.5;
+    height:30%; width: 100%;opacity: 0.6;
     background-color: #000000;position: absolute;z-index: 1;display: flex;justify-content: center;align-items: center;
 }
 
 #servicios .contenedor-industrias .contenedor-industrias-texto{
-    width: 500px;height:130px;color:white;display: flex
+    width: 500px;color:white;display: flex;
 }
 
 #servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
@@ -233,17 +244,30 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     background-repeat:no-repeat;
     background-position-y:290px;  
 }
-.quienesSomos-container p {
+.quienesSomos-container h6 {
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.15;
+    line-height: 1.5rem;
     letter-spacing: normal;
     text-align: left;
     color: #333333;
     margin-top: 20px;
 }
+
+.quienesSomos-container p,  {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    margin-top: 20px;
+}
+
 
 .quienesSomos-container .cont-quienes-somos{
     width: 170px;
@@ -384,10 +408,55 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     display: none;
     }
     
+    
     #servicios{
+        position: ;
      outline: 1px solid red;
     }
 
+    #servicios .contenedor-industrias{
+    background-color: #000000; 
+}
+
+#servicios .contenedor-industrias .contenedor-industrias-texto{
+    width: 500px;color:white;display: block;
+}
+
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
+    display: flex;justify-content:center;align-items:center
+}
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #fbf100;
+}
+
+
+
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.3px;
+    text-align: right;
+    color: #fbf100;
+    font-size: 5rem
+}
+
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-center{
+    display: block;justify-content:center;align-items:center
+}
+
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
+ display: none;
+}
+    
+    
     #header .container .navbar-collapse.collapse{
         justify-content: flex-start;
     
