@@ -47,23 +47,23 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 }
 
 
-#especializacion{
+#servicios{
     position: relative
 }
 
-#especializacion .contenedor-industrias{
+#servicios .contenedor-industrias{
     height:300px; width: 100%;opacity: 0.5;
     background-color: #000000;position: absolute;z-index: 1;display: flex;justify-content: center;align-items: center;
 }
 
-#especializacion .contenedor-industrias .contenedor-industrias-texto{
+#servicios .contenedor-industrias .contenedor-industrias-texto{
     width: 500px;height:130px;color:white;display: flex
 }
 
-#especializacion .contenedor-industrias .contenedor-industrias-texto .text-left{
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
     display: flex;justify-content:center;align-items:center
 }
-#especializacion .contenedor-industrias .contenedor-industrias-texto .text-left p{
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-left p{
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -73,11 +73,11 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     color: #fbf100;
 }
 
-#especializacion .contenedor-industrias .contenedor-industrias-texto .text-center{
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-center{
     padding-left:15px;padding-right:15px; 
 }
 
-#especializacion .contenedor-industrias .contenedor-industrias-texto .text-center p{
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -88,11 +88,11 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     font-size: 5rem
 }
 
-#especializacion .contenedor-industrias .contenedor-industrias-texto .text-right{
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-right{
     display: flex;justify-content:center;align-items:center
 }
 
-#especializacion .contenedor-industrias .contenedor-industrias-texto .text-right p{
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-right p{
     font-weight: 300;
       font-stretch: normal;
       font-style: normal;
@@ -101,6 +101,61 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
       text-align: left;
       color: #ffffff;
 }
+
+#siniestros .contenedor-industrias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#siniestros .contenedor-industrias .contenedor-industrias-texto{
+    width: 500px;height:130px;color:white;display: flex
+}
+
+#siniestros .contenedor-industrias .contenedor-industrias-texto .text-left{
+    display: flex;justify-content:center;align-items:center
+}
+#siniestros .contenedor-industrias .contenedor-industrias-texto .text-left p{
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.3px;
+    text-align: right;
+    color: #236095;
+}
+
+#siniestros .contenedor-industrias .contenedor-industrias-texto .text-center{
+    padding-left:15px;padding-right:15px; 
+}
+
+#siniestros .contenedor-industrias .contenedor-industrias-texto .text-center p{
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.3px;
+    text-align: right;
+    color: #236095;
+    font-size: 6rem
+}
+
+#siniestros .contenedor-industrias .contenedor-industrias-texto .text-right{
+    display: flex;justify-content:center;align-items:center
+}
+
+#siniestros .contenedor-industrias .contenedor-industrias-texto .text-right p{
+    font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.15;
+      letter-spacing: 0.17px;
+      text-align: left;
+      color: #000000;
+}
+
 #footer{
     background: #236095;
 }
@@ -244,7 +299,21 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 
 
 @media (max-width: 991.98px) { 
-
+    #nosotros .quienesSomos-container{
+    background: url(none);
+}
+    
+    #siniestros .contenedor-industrias .contenedor-industrias-texto{
+    display: flex;
+    flex-direction: column;
+}
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-center {
+    display: none;
+    }
+    
+    #servicios{
+     outline: 1px solid red;
+    }
 
     #header .container .navbar-collapse.collapse{
         justify-content: flex-start;
