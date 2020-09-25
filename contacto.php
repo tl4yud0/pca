@@ -42,13 +42,13 @@
               <div class="menu mb-2">
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                        <a class="nav-link" href="index.html#nosotros">Nosotros</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="#servicios">Servicios</a>
+                        <a class="nav-link" href="index.html#servicios">Servicios</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="#siniestros">Siniestros</a>
+                        <a class="nav-link" href="index.html#siniestros">Siniestros</a>
                       </li>
                       <li class="nav-item pr-3">
                         <a class="nav-link" href="gestiondecalidad.html">Gestión de Calidad</a>
@@ -57,7 +57,7 @@
                         <a class="nav-link" href="lloydsagency.html">LLOYD`S Agency</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="contacto.php">Contacto</a>
                       </li>
                       <li>
                         <img style="width: 26px;" src="images/buscar.png" alt="lupa">
