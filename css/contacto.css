@@ -67,3 +67,33 @@ src: url("fonts/AvenirLTStd-Black.otf");
     /* outline: 1px solid red; */
     transform: rotate(-45deg);
 }
+
+#headingOne,
+#headingTwo,
+#headingThree{
+    z-index: 1;
+
+}
+
+#collapseOne,
+#collapseTwo,
+#collapseThree{
+    position: relative; top: -30px; padding-top: 0px;
+}
+
+#collapseOne .card-body,
+#collapseTwo .card-body,
+#collapseThree .card-body{
+    padding-top: 45px;
+}
+
+.sombra .accordion .card:nth-child(2){
+    position: relative;
+    top: -10px;
+    
+}
+.sombra .accordion .card:nth-child(3){
+    /* outline: 5px solid red; */
+    position: relative;
+    top: -15px;
+}
