@@ -144,9 +144,16 @@
 
  <section class="formulario_sec">
  <section id="Contacto" class="contact">
-       <div class="wrapper-container">
-           <article class="contact-box">
-               <div class="contact-details">
+       <div class="container">
+           <article class="contact-box row ">
+               <div class="col-12 col-md-12 col-lg-4 mb-4 sombra">
+                  <div class="accordion" id="accordionExample">
+                  
+                  
+                 
+                </div>
+              </div>
+               <div class="contact-details col-12 col-md-12 col-lg-8 mb-4 ">
                   <form  method="post" id="contactform"  enctype="multipart/form-data">
                      <h2 class="contact-title" >Contacto</h2>
                        <div class="container-form">
@@ -160,7 +167,7 @@
                              </select>
                              <input class="form-input"  type="tel"  maxlength="10" name="phone" placeholder="Teléfono" required>
                        </div>
-                       <div class="container-button">
+                       <div class="container-button mb-4">
                              <!-- <button class="contact--button" >Enviar</button> -->
                              <input name="submit" type="submit" value="Enviar" class="submit-btn btn btn-success" >
                         </div>
@@ -171,6 +178,7 @@
                 </div> 
             </article>
         </div>
+        
     </section>
  </section>
    <!--footer-->

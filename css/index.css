@@ -12,7 +12,8 @@ src: url("fonts/AvenirLTStd-Black.otf");
 }
 
 body{
-    font-family:'avenir-book'; 
+    font-family:'avenir-book';
+    background-color: #ffffff;
 }
 
 .btn-pca{
@@ -84,7 +85,7 @@ body{
     color: #ffffff;
     margin-left: 10px;
 }
-.card{
+.card-shadow{
    -webkit-box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 -moz-box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
