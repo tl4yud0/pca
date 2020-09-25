@@ -79,11 +79,12 @@
                   <div class="accordion" id="accordionExample">
                   <div class="card grupo">
                     <div class="card-header col-10" id="headingOne">
-                      <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left  " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Collapsible Group Item #1
+                        <h2 style="font-size:20px">
+                          Ciudad de México
+                        </h2>
+                        <div  class="button-collapse"></div>
                         </button>
-                      </h2>
                     </div>
                     <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#accordionExample">
                       <div class="card-body card-text">
@@ -94,10 +95,13 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" id="headingTwo">
+                    <div class="card-header col-10" id="headingTwo">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Collapsible Group Item #2
+                        <h2 style="font-size:20px">
+                        Guadalajara
+                        </h2>
+                        <div  class="button-collapse"></div>
                         </button>
                       </h2>
                     </div>
@@ -108,10 +112,13 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" id="headingThree">
+                    <div class="card-header col-10" id="headingThree">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Collapsible Group Item #3
+                        <h2 style="font-size:20px">
+                        Monterrey
+                        </h2>
+                        <div  class="button-collapse"></div>
                         </button>
                       </h2>
                     </div>
