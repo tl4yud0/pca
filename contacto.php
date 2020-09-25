@@ -80,7 +80,7 @@
                   <div class="card grupo">
                     <div class="card-header col-10" id="headingOne">
                         <button class="btn btn-link btn-block text-left  " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <h2 style="font-size:20px">
+                        <h2 style="font-size:18px">
                           Ciudad de México
                         </h2>
                         <div  class="button-collapse"></div>
@@ -98,7 +98,7 @@
                     <div class="card-header col-10" id="headingTwo">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <h2 style="font-size:20px">
+                        <h2 style="font-size:18px">
                         Guadalajara
                         </h2>
                         <div  class="button-collapse"></div>
@@ -115,7 +115,7 @@
                     <div class="card-header col-10" id="headingThree">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <h2 style="font-size:20px">
+                        <h2 style="font-size:18px">
                         Monterrey
                         </h2>
                         <div  class="button-collapse"></div>
