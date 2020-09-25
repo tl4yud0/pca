@@ -12,16 +12,19 @@ src: url("fonts/AvenirLTStd-Black.otf");
 }
 
 body{
-    font-family:'avenir'; 
+    font-family:'avenir-book'; 
 }
 
 .btn-pca{
     background-color: #236095;
     color: white;
+    cursor: pointer;
+    border: none;
 }
 
 .btn-pca:hover{
     background-color: #133d9c;
+    border: none;
 }
 #header img{
     width: 100px;
@@ -98,11 +101,16 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 }
 
 #servicios .contenedor-industrias .contenedor-industrias-texto{
-    width: 500px;color:white;display: flex;
+    width: 500px;
+    color:white;
+    display: flex;
 }
 
 #servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
-    display: flex;justify-content:center;align-items:center
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 24px;
 }
 #servicios .contenedor-industrias .contenedor-industrias-texto .text-left p{
     font-weight: 300;
@@ -137,10 +145,11 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     font-weight: 300;
       font-stretch: normal;
       font-style: normal;
-      line-height: 1.15;
+      line-height: 23px;
       letter-spacing: 0.17px;
       text-align: left;
       color: #ffffff;
+    font-size: 16px;
 }
 
 #siniestros .contenedor-industrias{
@@ -148,14 +157,18 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #siniestros .contenedor-industrias .contenedor-industrias-texto{
-    width: 500px;height:130px;color:white;display: flex
+    
+    width: 500px;
+    color:white;
+    display: flex;
 }
 
 #siniestros .contenedor-industrias .contenedor-industrias-texto .text-left{
-    display: flex;justify-content:center;align-items:center
+    display: flex;justify-content:center;align-items:center;
 }
 #siniestros .contenedor-industrias .contenedor-industrias-texto .text-left p{
     font-size: 24px;
@@ -188,13 +201,15 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 }
 
 #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right p{
+    
     font-weight: 300;
       font-stretch: normal;
       font-style: normal;
-      line-height: 1.15;
+      line-height: 23px;
       letter-spacing: 0.17px;
       text-align: left;
       color: #000000;
+    font-size: 16px;
 }
 
 #footer{
@@ -241,7 +256,7 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 
 .quienesSomos-container{
     background: url(/images/quienessomos.jpg);
-    background-repeat:no-repeat;
+    background-repeat:repeat-x;
     background-position-y:290px;  
 }
 .quienesSomos-container h6 {
@@ -400,33 +415,40 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     background: url(none);
 }
     
-    #siniestros .contenedor-industrias .contenedor-industrias-texto{
-    display: flex;
-    flex-direction: column;
-}
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-center {
-    display: none;
-    }
     
     
-    #servicios{
+    #siniestros{
         position: none;
-     /* outline: 1px solid red; */
+/*        outline: 1px solid red;*/
     }
-
-    #servicios .contenedor-industrias{
-    background-color: #000000; 
-}
-
-#servicios .contenedor-industrias .contenedor-industrias-texto{
+    #siniestros .contenedor-industrias .contenedor-industrias-texto{
     width: 500px;color:white;display: block;
 }
 
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-center p{
+     display: none;
+    }
+    
 
+    #siniestros .contenedor-industrias{
+        position: relative;
+        background: #ffffff;
+        opacity: 1;
+    }
 
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
- display: none;
-}
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-left{
+        align-items: center;
+        margin-top: 20px;
+    }
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right{
+        align-items: center;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right p{
+        text-align: center;
+    }
     
     
     #header .container .navbar-collapse.collapse{
@@ -443,6 +465,21 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
         text-align: left !important;
 
     }
+    
+     #servicios{
+        position: none;
+     /* outline: 1px solid red; */
+    }
+
+
+#servicios .contenedor-industrias .contenedor-industrias-texto{
+    width: 500px;color:white;display: block;
+}
+
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
+ display: none;
+}
+    
 
     #servicios .contenedor-industrias{
         position: relative;

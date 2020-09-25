@@ -1,0 +1,38 @@
+@font-face{
+font-family: 'avenir-book';
+src: url("fonts/AvenirLTStd-Book.otf");
+    font-family: 'avenir-bold';
+src: url("fonts/AvenirLTStd-Black.otf");
+}
+.card{
+    border: 0;
+}
+.card-header{
+        background: #336699;
+}
+.grupo{
+    border-radius:0;
+    font-family:'avenir-book'; 
+}
+.grupo .btn-link {
+    color: white;
+}
+
+.grupo .btn {
+    font-size: 19px;
+} 
+.card-body{
+    background: red;
+    margin-left: 30px;
+}
+
+.card-text h4{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-text p{
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
