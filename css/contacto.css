@@ -36,3 +36,6 @@ src: url("fonts/AvenirLTStd-Black.otf");
     font-size: 13px;
     font-weight: 100;
 }
+.thanks{
+    display: none;
+}
