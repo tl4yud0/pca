@@ -55,7 +55,15 @@ src: url("fonts/AvenirLTStd-Black.otf");
 
 #headingOne button,
 #headingTwo button,
-#headingThree button{
+#headingThree button,
+#headingFour button,
+#headingFive button,
+#headingSix button,
+#headingSeven button,
+#headingEight button,
+#headingNine button,
+#headingTen button,
+#headingEleven button{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,27 +71,59 @@ src: url("fonts/AvenirLTStd-Black.otf");
 }
 #headingOne button.collapsed .button-collapse,
 #headingTwo button.collapsed .button-collapse,
-#headingThree button.collapsed .button-collapse{
+#headingThree button.collapsed .button-collapse,
+#headingFour button.collapsed .button-collapse,
+#headingFive button.collapsed .button-collapse,
+#headingSix button.collapsed .button-collapse,
+#headingSeven button.collapsed .button-collapse,
+#headingEight button.collapsed .button-collapse,
+#headingNine button.collapsed .button-collapse,
+#headingTen button.collapsed .button-collapse,
+#headingEleven button.collapsed .button-collapse{
     /* outline: 1px solid red; */
     transform: rotate(-45deg);
 }
 
 #headingOne,
 #headingTwo,
-#headingThree{
+#headingThree,
+#headingFour,
+#headingFive,
+#headingSix,
+#headingSeven,
+#headingEight,
+#headingNine,
+#headingTen,
+#headingEleven{
     z-index: 1;
 
 }
 
 #collapseOne,
 #collapseTwo,
-#collapseThree{
+#collapseThree,
+#collapseFour,
+#collapseFive,
+#collapseSix,
+#collapseSeven,
+#collapseEight,
+#collapseNine,
+#collapseTen,
+#collapseEleven{
     position: relative; top: -30px; padding-top: 0px;
 }
 
 #collapseOne .card-body,
 #collapseTwo .card-body,
-#collapseThree .card-body{
+#collapseThree .card-body,
+#collapseFour .card-body,
+#collapseFive .card-body,
+#collapseSix .card-body,
+#collapseSeven .card-body,
+#collapseEight .card-body,
+#collapseNine .card-body,
+#collapseTen .card-body,
+#collapseEleven .card-body{
     padding-top: 45px;
 }
 
@@ -92,7 +132,15 @@ src: url("fonts/AvenirLTStd-Black.otf");
     top: -10px;
     
 }
-.sombra .accordion .card:nth-child(3){
+.sombra .accordion .card:nth-child(3),
+.sombra .accordion .card:nth-child(4),
+.sombra .accordion .card:nth-child(5),
+.sombra .accordion .card:nth-child(6),
+.sombra .accordion .card:nth-child(7),
+.sombra .accordion .card:nth-child(8),
+.sombra .accordion .card:nth-child(9),
+.sombra .accordion .card:nth-child(10),
+.sombra .accordion .card:nth-child(11){
     /* outline: 5px solid red; */
     position: relative;
     top: -15px;

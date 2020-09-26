@@ -136,9 +136,9 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header col-10" id="headingThree">
+                    <div class="card-header col-10" id="headingFour">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         <h2 style="font-size:18px">
                         Puebla
                         </h2>
@@ -146,7 +146,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Jose Uriel Alcaide Tirado</h4>
                        <p>Director Asociado Puebla</p>
@@ -154,9 +154,9 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header col-10" id="headingThree">
+                    <div class="card-header col-10" id="headingFive">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         <h2 style="font-size:18px">
                         Veracruz
                         </h2>
@@ -164,7 +164,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Jose Uriel Alcaide Tirado</h4>
                        <p>Director Asociado Veracruz</p>
@@ -172,9 +172,9 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header col-10" id="headingThree">
+                    <div class="card-header col-10" id="headingSix">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                         <h2 style="font-size:18px">
                         Hermosillo
                         </h2>
@@ -182,7 +182,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Erasmo Moreno Martínez</h4>
                        <p>Director Asociado Hermosillo</p>
@@ -190,9 +190,9 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header col-10" id="headingThree">
+                    <div class="card-header col-10" id="headingSeven">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                         <h2 style="font-size:18px">
                         Ciudad Obregón
                         </h2>
@@ -200,7 +200,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Dayanira Moreno M.</h4>
                        <p>Directora Asociada Ciudad Obregón</p>
@@ -208,9 +208,9 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header col-10" id="headingThree">
+                    <div class="card-header col-10" id="headingEight">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                         <h2 style="font-size:18px">
                         Tijuana
                         </h2>
@@ -218,7 +218,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Hugo S. Monje</h4>
                        <p>Director Asociado Tijuana</p>
@@ -226,9 +226,9 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header col-10" id="headingThree">
+                    <div class="card-header col-10" id="headingNine">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                         <h2 style="font-size:18px">
                         Culiacán
                         </h2>
@@ -236,7 +236,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Erasmo Moreno Martínez</h4>
                        <p>Director Asociado Hermosillo</p>
@@ -244,9 +244,9 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header col-10" id="headingThree">
+                    <div class="card-header col-10" id="headingTen">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                         <h2 style="font-size:18px">
                         Nuevo León
                         </h2>
@@ -254,7 +254,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Christian Guzmán Carrera</h4>
                        <p>Director Asociado Nuevo León</p>
@@ -262,9 +262,9 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header col-10" id="headingThree">
+                    <div class="card-header col-10" id="headingEleven">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                         <h2 style="font-size:18px">
                         Mexicali
                         </h2>
@@ -272,7 +272,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Hugo S. Monje</h4>
                        <p>Director Asociado Tijuana</p>

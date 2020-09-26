@@ -90,56 +90,115 @@ body{
 }
 .card-shadow{
    -webkit-box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
--moz-box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
-box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
+    -moz-box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
+    box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
+}
+
+.card-shadow .cont-img{
+    position: relative;
+}
+
+.card-shadow .cont-img h6{
+    position: absolute;;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    font-size: 35px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: 3.34px;
+    text-align: left;
+    color: #fbf100;
 }
 
 #main .carousel-item .cont-texcarusel {
-      width: 510px;
-
-
-
- }
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel .cont-text {
+    position: relative;
+    width: 515px;
+}
 
  #main .carousel-item .cont-texcarusel .box-1{
-     width: 25px;
-     height: 25px;
+     width: 30px;
+     height: 30px;
      background-color: #f9e400;
      position: absolute;
-     left: -35px;
-     bottom: 200px;
+     left: -45px;
+     top: 30px;
  }
  #main .carousel-item .cont-texcarusel h2{
-     font-size: 55.5px;
-     font-weight: normal;
-     font-stretch: normal;
-     font-style: normal;
-     line-height: 1;
-     letter-spacing: 2.78px;
-     text-align: right;
-     color: #ffffff;
+    font-size: 88px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
  }
  #main .carousel-item .cont-texcarusel h2 span{
       font-weight: bolder;
  }
- #main .carousel-item .cont-texcarusel p{
-     font-size: 18px;
-     font-weight: 300;
-     font-stretch: normal;
-     font-style: normal;
-     line-height: 1.24;
-     letter-spacing: 1.38px;
-     text-align: right;
-     color: white;
- }
+
  #main .carousel-item .cont-texcarusel .box-2{
-     width: 25px;
-     height: 25px;
+     width: 30px;
+     height: 30px;
      background-color: #f9e400;
      position: absolute;
-     top: 100px;
-     right: -35px;
+     right: 25px;
+     bottom: 25px;
  }
+ #main .carousel-item .cont-texcarusel .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 30px;
+}
+
+#main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
+    width: 240px;
+    height: 50px;
+    background-color: #336699;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -551,5 +610,89 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     }
     #servicios .contenedor-industrias .contenedor-industrias-texto .text-right p{
         text-align: center;
+    }
+
+
+    #main .carousel-item .cont-texcarusel {
+        width: 75%;
+        position: absolute;
+    }
+    #main .carousel-item .cont-texcarusel .cont-text {
+        position: relative;
+        width: 50%;
+    }
+    
+     #main .carousel-item .cont-texcarusel .box-1{
+         width: 15px;
+         height: 15px;
+         background-color: #f9e400;
+         position: absolute;
+         left: -20px;
+         top: 25px;
+     }
+     #main .carousel-item .cont-texcarusel h2{
+        font-size: 20px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.05;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+     }
+     #main .carousel-item .cont-texcarusel h2 span{
+          font-weight: bolder;
+     }
+    
+     #main .carousel-item .cont-texcarusel .box-2{
+         width: 15px;
+         height: 15px;
+         background-color: #f9e400;
+         position: absolute;
+         right: -10px;
+         bottom: 25px;
+     }
+     #main .carousel-item .cont-texcarusel .cont-right{
+         display: flex;
+         justify-content: flex-end;
+         flex-direction: column;
+         align-items: flex-end;
+     }
+     #main .carousel-item .cont-texcarusel .cont-right .line-cont{
+        width: 200px;
+        height: 5px;
+        border-radius: 6px;
+        background-color: #fbf100;
+        right: 0px;
+        position: a;
+     }
+     #main .carousel-item .cont-texcarusel .cont-right p{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.24;
+        letter-spacing: 1.38px;
+        text-align: right;
+        color: white;
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    #main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
+        width: 120px;
+        height: 40px;
+        background-color: #336699;
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
