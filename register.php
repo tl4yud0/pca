@@ -8,10 +8,10 @@ $headers = 'From: no-reply@proyectocirca.org' . "\r\n" .
 
 $subs_name = utf8_decode($_POST['name']);
 $subs_email = utf8_decode($_POST['email']);
-$subs_option = utf8_decode($_POST['option']);
-$subs_phone = utf8_decode($_POST['phone']);
+$subs_option = utf8_decode($_POST['asunto']);
+$subs_phone = utf8_decode($_POST['mensaje']);
 
-$texto = "*Nombre de colaborador: ".$subs_name." *Correo: ".$subs_email." *Tipo de colaborador: ".$subs_option." *Tel: ".$subs_phone;
+$texto = "*Nombre de colaborador: ".$subs_name." *Correo: ".$subs_email." *Asunto: ".$subs_option." *mensaje: ".$subs_phone;
 
 $file = fopen("miarchivo.txt", "a");
 fwrite($file, $texto."\n");

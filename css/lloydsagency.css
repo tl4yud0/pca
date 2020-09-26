@@ -1,0 +1,112 @@
+
+
+#lloydsagency .container-fluid{
+     background: url(/images/quienessomos.jpg);
+     height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #lloydsagency .container-fluid .cont-quienes-somos {
+      width: 210px;
+      position: relative;
+
+ }
+
+ #lloydsagency .container-fluid .cont-quienes-somos .box-1{
+     width: 25px;
+     height: 25px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -35px;
+     bottom: 70px;
+ }
+ #lloydsagency .container-fluid .cont-quienes-somos h2{
+     font-size: 55.5px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 1;
+     letter-spacing: 2.78px;
+     text-align: right;
+     color: #ffffff;
+ }
+ #lloydsagency .container-fluid .cont-quienes-somos h2 span{
+      font-weight: bolder;
+ }
+ #lloydsagency .container-fluid .cont-quienes-somos p{
+     font-size: 27.5px;
+     font-weight: 300;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 1.24;
+     letter-spacing: 1.38px;
+     text-align: right;
+     color: #fbf100;
+ }
+ #lloydsagency .container-fluid .cont-quienes-somos .box-2{
+     width: 25px;
+     height: 25px;
+     background-color: #f9e400;
+     position: absolute;
+     top: 15px;
+     right: -35px;
+ }
+
+ #oficinas{
+      padding-top: 70px;
+}
+#oficinas .cont-img {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#oficinas img.card-img-top {
+     width: 242px;
+     height: 125px;
+ }
+ #oficinas .text-oficinas{
+      font-size: 20px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #333333;
+
+ }
+
+ .container-button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+ }
+
+ .container-button a{
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 156px;
+      height: 49px;
+      background-color: #336699;
+      color: white !important;
+      display: flex;
+          justify-content: center;
+          align-items: center;
+ }
+
+ .container-button a:nth-child(1){
+      display: flex;
+      flex-direction: column;
+}
+.container-button a:nth-child(1) p{
+     margin: 0px;
+}
+
+.container-button a:nth-child(1) p span{
+     font-weight: bold
+}

@@ -154,10 +154,23 @@
                 </div>
               </div>
                <div class="contact-details col-12 col-md-12 col-lg-8 mb-4 ">
-                  <form  method="post" id="contactform"  enctype="multipart/form-data">
-                     <h2 class="contact-title" >Contacto</h2>
+               <form  method="post" id="contactform"  enctype="multipart/form-data">
                        <div class="container-form">
-                             <input class="form-input"  type="text" placeholder="Nombre*"    name="name" required>
+                            <h3 style>ENVÍANOS UN MENSAJE</h3>
+                            <p>Por favor llena el siguiente formulario para ponernos en contacto a la brevedad</p>
+                              <div class="form-group">
+                                <input  class="form-control" type="text" placeholder="Nombre"    name="name" required>
+                              </div>
+                              <div class="form-group">
+                                <input class="form-control"  type="email" type="email" placeholder="Email" name="email" required>
+                              </div>
+                              <div class="form-group">
+                                <input class="form-control"  type="text" type="email" placeholder="Asunto" name="asunto" required>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"  placeholder="Mensaje"></textarea>
+                              </div>
+                             <!-- <input class="form-input"  type="text" placeholder="Nombre*"    name="name" required>
                              <input  class="form-input"  type="email" placeholder="Correo electrónico*" name="email" required>
                              <select  class="form-input" name="option" required>
                                 <option value="" selected disabled="disabled">Escoge tu tipo de colaboración</option>
@@ -165,7 +178,7 @@
                                 <option value="Colaborador">Colaborador</option>
                                 <option value="Afiliación">Afiliación</option>
                              </select>
-                             <input class="form-input"  type="tel"  maxlength="10" name="phone" placeholder="Teléfono" required>
+                             <input class="form-input"  type="tel"  maxlength="10" name="phone" placeholder="Teléfono" required> -->
                        </div>
                        <div class="container-button mb-4">
                              <!-- <button class="contact--button" >Enviar</button> -->
