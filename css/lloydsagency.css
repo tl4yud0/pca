@@ -6,6 +6,37 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     position: relative;
+ }
+
+
+ #lloydsagency .cont-language{
+     position: absolute;
+     z-index: 1;
+     right: 15%;
+     top: 3%;
+ }
+ #lloydsagency .cont-language p {
+     font-size: 13px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 2.08;
+     letter-spacing: 0.13px;
+     text-align: left;
+     color: #ffffff;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #lloydsagency .cont-language p a.espaniol{
+     color: #fbf100;
+     margin-right: 10px;
+ }
+ #lloydsagency .cont-language p a.english{
+     color: #ffffff;
+     margin-left: 10px;
  }
 
  #lloydsagency .container-fluid .cont-quienes-somos {
@@ -56,6 +87,7 @@
 
  #oficinas{
       padding-top: 70px;
+      position: relative;
 }
 #oficinas .cont-img {
 
