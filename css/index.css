@@ -6,9 +6,9 @@
 
 @font-face{
 font-family: 'avenir-book';
-src: url("fonts/AvenirLTStd-Book.otf");
+src: url("../fonts/AvenirLTStd-Book.otf");
     font-family: 'avenir-bold';
-src: url("fonts/AvenirLTStd-Black.otf");
+src: url("../fonts/AvenirLTStd-Black.otf");
 }
 
 body{
@@ -16,6 +16,9 @@ body{
     background-color: #ffffff;
 }
 
+.activado{
+    font-weight: bolder;
+}
 .btn-pca{
     background-color: #236095;
     color: white;
@@ -46,6 +49,9 @@ body{
 .navbar-light .navbar-nav .nav-link {
     color: #333333;
     font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link.activado{
+    font-weight: bolder;
 }
 .navbar-light .navbar-nav .nav-item a:hover {
     color: #000000;
@@ -256,7 +262,7 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
 }
 
 .quienesSomos-container{
-    background: url(/images/quienessomos.jpg);
+     background: url(../images/quienessomos.jpg);
     background-repeat:repeat-x;
     background-position-y:290px;  
 }

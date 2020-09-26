@@ -1,0 +1,26 @@
+#grupopca h5{
+    font-weight: bolder;
+}
+
+#grupopca span{
+    color: red;
+}
+
+.boton-grupo{
+    text-align: center;
+    font-size: 20px;
+}
+
+#biblioteca ul li p a{
+    color: #236095;
+    margin-left: 30px;
+     text-decoration:underline;
+}
+
+#biblioteca ul p{
+    color: #236095;
+}
+#biblioteca ul{
+   
+    list-style-type: none;
+}
