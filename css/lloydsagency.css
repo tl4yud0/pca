@@ -1,7 +1,7 @@
 
 
 #lloydsagency .container-fluid{
-     background: url(/images/quienessomos.jpg);
+     background: url(../images/quienessomos.jpg);
      height: 300px;
      display: flex;
      justify-content: center;
