@@ -182,7 +182,7 @@
                        </div>
                        <div class="container-button mb-4">
                              <!-- <button class="contact--button" >Enviar</button> -->
-                             <input name="submit" type="submit" value="Enviar" class="submit-btn btn btn-success" >
+                             <input name="submit" type="submit" value="Enviar" class="submit-btn btn" >
                         </div>
 
                        
