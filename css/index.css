@@ -406,7 +406,7 @@ box-shadow: 1px 44px 59px -23px rgba(189,193,202,1);
     height: 100%;
     background: center center/3em 3em no-repeat rgb(5 14 69 / 0.65);
     opacity: 0;
-    transform: scale(0.1);
+    transform: scale(0);
     opacity: 0.54;
     transition: all .3s;
 

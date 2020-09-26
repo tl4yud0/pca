@@ -26,7 +26,7 @@
   
   <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-      <a class="navbar-brand" href="">
+      <a href="index.html" class="navbar-brand" href="">
           <img style="width: 170px;" src="images/logo-header-pca.png" alt="Grupo PCA">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,8 +36,12 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent"  >
         <div class="contenet-menu ">
               <div class="logos mt-2 mb-2">
-                  <img class="mr-1" src="images/logo-lloyds.jpg" alt="">
-                  <img class="ml-1" src="images/login.jpg" alt="">
+                    
+                        <img class="mr-1" src="images/logo-lloyds.jpg" alt="">
+                   
+                    <a href="https://proclaims.mx:8443/grupopca/">
+                        <img class="ml-1" src="images/login.jpg" alt="">
+                    </a>
               </div> 
               <div class="menu mb-2">
                     <ul class="navbar-nav ml-auto">
@@ -90,7 +94,8 @@
                       <div class="card-body card-text">
                        <h4>Roberto López Vidrio</h4>
                        <p>Director General</p>
-                        
+                       <h4>Julio C. López Sáinz</h4>
+                       <p>Director Adjunto</p>
                       </div>
                     </div>
                   </div>
@@ -107,7 +112,8 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                       <h4>Esfras Alejandro Pérez Sanchéz</h4>
+                       <p>Director Asociado Guadalajara</p>
                       </div>
                     </div>
                   </div>
@@ -124,7 +130,152 @@
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                       <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <h4>L.A.E. Salvadore Rosas Romo</h4>
+                       <p>Gerente de oficina Monterrey</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header col-10" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 style="font-size:18px">
+                        Puebla
+                        </h2>
+                        <div  class="button-collapse"></div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h4>Ing. Jose Uriel Alcaide Tirado</h4>
+                       <p>Director Asociado Puebla</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header col-10" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 style="font-size:18px">
+                        Veracruz
+                        </h2>
+                        <div  class="button-collapse"></div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h4>Ing. Jose Uriel Alcaide Tirado</h4>
+                       <p>Director Asociado Veracruz</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header col-10" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 style="font-size:18px">
+                        Hermosillo
+                        </h2>
+                        <div  class="button-collapse"></div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h4>Lic. Erasmo Moreno Martínez</h4>
+                       <p>Director Asociado Hermosillo</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header col-10" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 style="font-size:18px">
+                        Ciudad Obregón
+                        </h2>
+                        <div  class="button-collapse"></div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h4>Lic. Dayanira Moreno M.</h4>
+                       <p>Directora Asociada Ciudad Obregón</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header col-10" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 style="font-size:18px">
+                        Tijuana
+                        </h2>
+                        <div  class="button-collapse"></div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h4>Ing. Hugo S. Monje</h4>
+                       <p>Director Asociado Tijuana</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header col-10" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 style="font-size:18px">
+                        Culiacán
+                        </h2>
+                        <div  class="button-collapse"></div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h4>Lic. Erasmo Moreno Martínez</h4>
+                       <p>Director Asociado Hermosillo</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header col-10" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 style="font-size:18px">
+                        Nuevo León
+                        </h2>
+                        <div  class="button-collapse"></div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h4>Christian Guzmán Carrera</h4>
+                       <p>Director Asociado Nuevo León</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header col-10" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 style="font-size:18px">
+                        Mexicali
+                        </h2>
+                        <div  class="button-collapse"></div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h4>Ing. Hugo S. Monje</h4>
+                       <p>Director Asociado Tijuana</p>
                       </div>
                     </div>
                   </div>
@@ -201,11 +352,11 @@
             <div class="col-12 col-lg-4 pb-3 pt-3">
              <ul>
                 <p class="footer-title">LINK DE INTERES</p>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="">Inicio</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="">Nosotros</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="">Servicios</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html">Inicio</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#nosotros">Nosotros</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#servicios">Servicios</a></li>
                 <li class="pb-1 pt-1"> <a class="footer-link" href="">Leyes Códigos</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="">Tipo de cambio $</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="https://www.banxico.org.mx/tipcamb/tipCamIHAction.do">Tipo de cambio $</a></li>
              </ul>
               
             </div>
