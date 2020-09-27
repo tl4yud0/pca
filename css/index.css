@@ -162,7 +162,23 @@ body{
      right: 73px;
      bottom: 25px;
  }
- #main .carousel-item .cont-texcarusel .box-3{
+ #main .carousel-item .cont-texcarusel .box-cuadro1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 73px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 73px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro3{
      width: 30px;
      height: 30px;
      background-color: #f9e400;
@@ -170,7 +186,7 @@ body{
      right: 153px;
      bottom: 25px;
  }
- #main .carousel-item .cont-texcarusel .box-4{
+ #main .carousel-item .cont-texcarusel .box-cuadro4{
      width: 30px;
      height: 30px;
      background-color: #f9e400;
@@ -178,7 +194,7 @@ body{
      right: 83px;
      bottom: 25px;
  }
- #main .carousel-item .cont-texcarusel .box-5{
+ #main .carousel-item .cont-texcarusel .box-cuadro5{
      width: 30px;
      height: 30px;
      background-color: #f9e400;
@@ -229,6 +245,95 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+/*
+#main .carousel-item .cont-texcarusel-grande {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel-grande .cont-text {
+    position: relative;
+    width: 535px;
+}
+
+ #main .carousel-item .cont-texcarusel-grande .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -45px;
+     top: 30px;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2{
+    font-size: 70px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel-grande .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: -13px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel-grande .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #336699;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
 
 
 #main .carousel-item .cont-texcarusel-grande {
@@ -317,6 +422,47 @@ body{
     align-items: center;
 }
 
+/*carousel de abajo*/
+#carousel2 .carousel-item .cont-texcarusel {
+    
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+#carousel2 .carousel-item .cont-texcarusel .cont-text {
+    position: relative;
+
+}
+
+ #carousel2 .carousel-item .cont-texcarusel h2{
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+    background-color: #000000;
+     
+ }
+
+ #carousel2 .carousel-item .cont-texcarusel .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #carousel2 .carousel-item .cont-texcarusel .cont-right .line-cont{
+
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
 
 
 
@@ -641,6 +787,15 @@ body{
   
 
 @media (max-width: 1210px) { 
+    
+       #carousel2 .carousel-item .cont-texcarusel {
+    width: 600px;
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    transform: translate(-50%, -75%);
+}
+    
   /*  
         #main .carousel-inner img{
     max-height: 100vh;
@@ -672,6 +827,13 @@ body{
 }
     
     
+    #carousel2 .carousel-item .cont-texcarusel {
+    width: 600px;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    transform: translate(-50%, -75%);
+}
     
     #siniestros{
         position: none;
@@ -758,6 +920,7 @@ body{
     }
 
 
+/*
     #main .carousel-item .cont-texcarusel {
         width: 75%;
         position: absolute;
@@ -776,7 +939,7 @@ body{
          top: 25px;
      }
      #main .carousel-item .cont-texcarusel h2{
-        font-size: 24px;
+        font-size: 50px;
         font-weight: 900;
         font-stretch: normal;
         font-style: normal;
@@ -839,5 +1002,235 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+*/
+    
+    #main .carousel-item .cont-texcarusel {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel .cont-text {
+    position: relative;
+    width: 390px;
+}
+
+ #main .carousel-item .cont-texcarusel .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -45px;
+     top: 30px;
+ }
+ #main .carousel-item .cont-texcarusel h2{
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 43px;
+     bottom: 25px;
+ }
+#main .carousel-item .cont-texcarusel .box-cuadro1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 133px;
+     bottom: 25px;
+ }
+#main .carousel-item .cont-texcarusel .box-cuadro2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 153px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro3{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 23px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro4{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 53px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro5{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 143px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #336699;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+#main .carousel-item .cont-texcarusel-grande {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel-grande .cont-text {
+    position: relative;
+    width: 390px;
+}
+
+ #main .carousel-item .cont-texcarusel-grande .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -45px;
+     top: 30px;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2{
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel-grande .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: -13px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel-grande .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #336699;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+}
+@media (max-width: 780px) { 
+    #nosotros .quienesSomos-container{
+    background: url(none);
+    }
+    
+    
+    #carousel2 .carousel-item .cont-texcarusel {
+    width: 600px;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -75%);
     }
 }
