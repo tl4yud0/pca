@@ -149,6 +149,27 @@
     </div>
 </nav>
 <!-- / header-->
+      <section id="idiomas" class="" >
+    <div class="container-fluid  pt-3 pb-5">
+        <div class="cont-language">
+            <p>
+              <a href="" class="espaniol"> Español </a> 
+              |
+              <a href="" class="english"> English </a>
+            </p>
+         </div>
+<!--
+        <div class="cont-quienes-somos">
+            <div class="box-1"></div>
+            <h2>Somos <span> Lloyd's</span> </h2>
+            <p>Agency</p>
+            <div class="box-2"></div>
+          </div>
+-->
+ 
+    
+  </div>
+</section>
        
 <section id="contacto" class="" >
       <div class="pt-3 pb-5">

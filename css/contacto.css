@@ -4,10 +4,53 @@ src: url("fonts/AvenirLTStd-Book.otf");
     font-family: 'avenir-bold';
 src: url("fonts/AvenirLTStd-Black.otf");
 }
+#idiomas{
+    padding-top: 140px;
+}
 
+#idiomas .container-fluid{
+     background-color: #000000;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+ }
+#idiomas .cont-language{
+     position: absolute;
+     z-index: 1;
+     right: 15%;
+     top: 26%;
+ }
+ #idiomas .cont-language p {
+     font-size: 13px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 2.08;
+     letter-spacing: 0.13px;
+     text-align: left;
+     color: #ffffff;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #idiomas .cont-language p a.espaniol{
+     color: #fbf100;
+     margin-right: 10px;
+ }
+ #idiomas .cont-language p a.english{
+     color: #ffffff;
+     margin-left: 10px;
+ }
+
+
+/*
 #contacto{
     padding-top: 140px;
 }
+*/
 .card{
     border: 0;
 }

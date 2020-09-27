@@ -70,7 +70,7 @@ body{
     position: absolute;
     z-index: 1;
     right: 15%;
-    top: 3%;
+    top: 170px;
 }
 #main .cont-language p {
     font-size: 13px;
@@ -526,6 +526,26 @@ body{
   }
   
 
+@media (max-width: 1210px) { 
+    
+        
+        *{outline: 1px solid red ; }
+        
+/*
+    #main .carousel-item .cont-texcarusel h2 {
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+*/
+    
+}
+    
 
 @media (max-width: 991.98px) { 
     #nosotros .quienesSomos-container{
@@ -637,7 +657,7 @@ body{
          top: 25px;
      }
      #main .carousel-item .cont-texcarusel h2{
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 900;
         font-stretch: normal;
         font-style: normal;
