@@ -63,7 +63,7 @@ body{
     padding-top: 140px;
 }
 #main .carousel-inner img{
-    max-height: 70vh;
+    max-height: 75vh;
     object-fit: cover;
 }
 #main .cont-language{
@@ -141,7 +141,7 @@ body{
      top: 30px;
  }
  #main .carousel-item .cont-texcarusel h2{
-    font-size: 88px;
+    font-size: 78px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -159,7 +159,31 @@ body{
      height: 30px;
      background-color: #f9e400;
      position: absolute;
-     right: 25px;
+     right: 73px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-3{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 153px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-4{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 83px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-5{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 193px;
      bottom: 25px;
  }
  #main .carousel-item .cont-texcarusel .cont-right{
@@ -188,7 +212,7 @@ body{
     margin-top: 20px;
     margin-left: 50px;
     width: 435px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
@@ -205,6 +229,96 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+#main .carousel-item .cont-texcarusel-grande {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel-grande .cont-text {
+    position: relative;
+    width: 535px;
+}
+
+ #main .carousel-item .cont-texcarusel-grande .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -45px;
+     top: 30px;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2{
+    font-size: 70px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel-grande .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: -13px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel-grande .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #336699;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
 
@@ -527,13 +641,17 @@ body{
   
 
 @media (max-width: 1210px) { 
-    
-        
+  /*  
+        #main .carousel-inner img{
+    max-height: 100vh;
+    object-fit: cover;
+}
         *{outline: 1px solid red ; }
         
-/*
+
+
     #main .carousel-item .cont-texcarusel h2 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -543,6 +661,7 @@ body{
     color: #ffffff;
 }
 */
+
     
 }
     

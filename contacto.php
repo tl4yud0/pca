@@ -149,7 +149,7 @@
     </div>
 </nav>
 <!-- / header-->
-      <section id="idiomas" class="" >
+        <section id="idiomas" class="" >
     <div class="container-fluid  pt-3 pb-5">
         <div class="cont-language">
             <p>
@@ -170,7 +170,7 @@
     
   </div>
 </section>
-       
+
 <section id="contacto" class="" >
       <div class="pt-3 pb-5">
 
@@ -178,7 +178,7 @@
           <div class="row">
               <div class="col-12 col-md-12 col-lg-4 mb-4 sombra">
                   <div class="accordion" id="accordionExample">
-                  <div class="card grupo">
+                  <div class="card grupo" @click="initMap(0)">
                     <div class="card-header col-10" id="headingOne">
                         <button class="btn btn-link btn-block text-left  " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <h2 style="font-size:18px">
@@ -196,7 +196,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(1)">
                     <div class="card-header col-10" id="headingTwo">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -214,7 +214,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(2)">
                     <div class="card-header col-10" id="headingThree">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -232,7 +232,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(3)">
                     <div class="card-header col-10" id="headingFour">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -250,7 +250,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(4)">
                     <div class="card-header col-10" id="headingFive">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -268,7 +268,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(5)">
                     <div class="card-header col-10" id="headingSix">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -286,7 +286,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(6)">
                     <div class="card-header col-10" id="headingSeven">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -304,7 +304,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(7)">
                     <div class="card-header col-10" id="headingEight">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -322,7 +322,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(8)">
                     <div class="card-header col-10" id="headingNine">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -340,7 +340,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(9)">
                     <div class="card-header col-10" id="headingTen">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
@@ -358,7 +358,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card" @click="initMap(10)">
                     <div class="card-header col-10" id="headingEleven">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
@@ -499,12 +499,12 @@
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&language=es&key=AIzaSyBOjm1Md7I7Lx8w7ktBAisWYqFlC_zGxsw"></script>
     <script type="text/javascript">
       var app = new Vue({
-        el: '#map',
+        el: '#contacto',
         mounted(){
           this.initMap();
         },
         methods: {
-          initMap() {
+          initMap(openMarker = null) {
             var map;
             var myLatLng = { lat: 24.0666877, lng: -102.6205 };
             var locations = [
@@ -570,21 +570,25 @@
               center: myLatLng
             });
 
-            locations.forEach( element => {
-              var marker = new google.maps.Marker({
-                  position: element.position,
-                  map: map,
-                  title: element.title,
-                  icon: element.icon,
+            locations.forEach( (element, index) => {
+                var marker = new google.maps.Marker({
+                    position: element.position,
+                    map: map,
+                    title: element.title,
+                    icon: element.icon,
+                  });
+
+                var information = new google.maps.InfoWindow({
+                  content: element.markup
                 });
 
-              var information = new google.maps.InfoWindow({
-                content: element.markup
-              });
+                marker.addListener('click', function() {
+                    information.open(map, marker);
+                  });
 
-              marker.addListener('click', function() {
-                  information.open(map, marker);
-                });
+                if(openMarker == index){
+                  information.open(map,marker);
+                }
               });
           }
         }
