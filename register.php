@@ -24,7 +24,7 @@ $to      = $subs_email;
 $message = "Hola ".$subs_name."nos pondremos en contacto contigo para más detalles :)";
 $subject = 'Saludos de PCA';
 if(mail($to, $subject, $message, $headers)){
-    mail("contactos@pca.com", "Registro", $texto, $headers);
+    mail("sparck_me@hotmail.com", "Registro", $texto, $headers);
     die('done');
 }else{
     echo "<i class='fa fa-exclamation-triangle'></i> <span>Send message error.</span>";

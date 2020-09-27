@@ -4,6 +4,10 @@ src: url("fonts/AvenirLTStd-Book.otf");
     font-family: 'avenir-bold';
 src: url("fonts/AvenirLTStd-Black.otf");
 }
+
+#contacto{
+    padding-top: 140px;
+}
 .card{
     border: 0;
 }
@@ -13,6 +17,7 @@ src: url("fonts/AvenirLTStd-Black.otf");
 .grupo{
     border-radius:0;
     font-family:'avenir-book'; 
+    
 }
 .grupo .btn-link {
     color: white;

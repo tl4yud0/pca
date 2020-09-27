@@ -64,85 +64,9 @@
                         <a class="nav-link activado" href="contacto.php">Contacto</a>
                       </li>
                       <li>
-                        <button
-                          type="button"
-                          class="btn btn-link"
-                          data-toggle="modal"
-                          data-target="#staticBackdrop">
-                          <img style="width: 26px;" src="images/buscar.png" alt="lupa">
-                        </button>
-                        <!-- Modal -->
-                        <div
-                          class="modal fade"
-                          id="staticBackdrop"
-                          data-backdrop="static"
-                          data-keyboard="false"
-                          tabindex="-1"
-                          aria-labelledby="staticBackdropLabel"
-                          aria-hidden="true">
-                          <div class="modal-dialog" id="search">
-                            <div class="modal-content" style="background-color: #F8F9FA">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">
-                                  Buscar en el sitio
-                                </h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-
-                                <div class="input-group mb-2">
-                                  <input
-                                    type="text"
-                                    class="form-control"
-                                    aria-label="Recipient's username with two button addons"
-                                    aria-describedby="button-addon4"
-                                    v-model="keywords">
-                                  <div class="input-group-append" id="button-addon4">
-                                    <button
-                                      class="btn btn-primary"
-                                      type="button"
-                                      @click="searchUrl(keywords)">
-                                      Buscar
-                                    </button>
-                                    <button
-                                      class="btn btn-outline-secondary"
-                                      type="button"
-                                      @click="keywords = null, results = null">
-                                      Limpiar
-                                    </button>
-                                  </div>
-                                </div>
-                                <p v-if="keywords && results">
-                                  <b>Resultados para "{{keywords }}"</b>
-                                  <br>
-                                  <small>{{ results ? results.length : 0  }} resultado(s)</small>
-                                </p>
-                                <ul class="list-group">
-                                  <li
-                                    class="list-group-item"
-                                    style="background-color: #F8F9FA"
-                                    v-for="result in results">
-                                    <button
-                                      type="button"
-                                      class="btn btn-link pl-0"
-                                      @click="goToLink(result.url)">
-                                      {{ result.name }}
-                                    </button>
-                                    <p>
-                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                                    </p>
-                                  </li>
-                                </ul>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
+                        <img style="width: 26px;" src="images/buscar.png" alt="lupa">
                       </li>
-                    </ul>
+                    </ul>						 	
               </div>
         </div>
       </div>
@@ -359,8 +283,9 @@
                   
                 </div>
               </div>
-              <div class="col-12 col-md-12 col-lg-8">
-                  <div id="map" style="height: 750px"></div>
+              <div class="col-12 col-md-12 col-lg-8 mb-8">
+                  
+                  <iframe width="100%" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
               </div>
               
           </div>
@@ -464,170 +389,16 @@
     <script src="js/popper.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript">
-      $('#myCollapsible').on('hidden.bs.collapse', function () {
-        // do something...
-      })
-      $('#myCollapsible').collapse({
-        toggle: false
-      })
-    </script>
-    <script src="js/registro.js"></script>
-    <!-- Vue JS -->
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&language=es&key=AIzaSyBOjm1Md7I7Lx8w7ktBAisWYqFlC_zGxsw"></script>
-    <script type="text/javascript">
-      var app = new Vue({
-        el: '#map',
-        mounted(){
-          this.initMap();
-        },
-        methods: {
-          initMap() {
-            var map;
-            var myLatLng = { lat: 24.0666877, lng: -102.6205 };
-            var locations = [
-              {
-                title: 'Ciudad de México',
-                position: {lat: 19.371721, lng: -99.192242},
-                markup: '<h4>Ciudad de México</h4><p>Periférico Sur 1661, A-12 1001 (Torres de Mixcoac)<br>Col. Lomas de Los Plateros, Del. Álvaro Obregón<br>México DF, CP 01480<br>Tel/Fax: (52 55) 5680-6966</p>'
-              },
-              {
-                title: 'Guadalajara',
-                position: {lat: 20.6364319, lng: -103.4088479},
-                markup: '<h4>Guadalajara</h4><p>Barracuda 3941, Col. Loma Bonita Sur,<br>Zapopan, Jalisco, México<br>Tel: (52 33) 3615 8038<br>Fax: (52 33) 3615 8154</p>'
-              },
-              {
-                title: 'Monterrey',
-                position: {lat: 25.7090533, lng: -100.3747607},
-                markup: '<h4>Monterrey</h4><p>Del Gran Parque 225, Col. Cumbres 2o Sector<br>Monterrey, N.L. México. CP. 64610<br>Tel: (52 81) 2315 0879</p>'
-              },
-              {
-                title: 'Puebla',
-                position: {lat: 19.0491529, lng: -98.2147291},
-                markup: '<h4>Puebla</h4><p>Avenida Juárez No.1706, Despacho #103,<br>Col. La Paz, Puebla, Pue.<br>Tel/ Fax: (52 22) 2249 0365</p>'
-              },
-              {
-                title: 'Veracruz',
-                position: {lat: 19.1494934, lng: -96.1573521},
-                markup: '<h4>Veracruz</h4><p>Las Aguilas No. 172, Fracc Laguna Real,<br>Veracruz,  Veracruz. C.P 91790<br>Tel : (229) 286 0431</p>'
-              },
-              {
-                title: 'Hermosillo',
-                position: {lat: 29.0873329, lng: -110.9852682},
-                markup: '<h4>Hermosillo</h4><p>Rincón de los Azulejos # 15 Col. Villa Satélite<br>Hermosillo, Sonora CP 83200<br>Tel: (52 662) 311 3506</p>'
-              },
-              {
-                title: 'Ciudad Obregón',
-                position: {lat: 27.4913982, lng: -109.9120177},
-                markup: '<h4>Ciudad Obregón</h4><p>Bartolomé Delgado de León # 306<br>Col. Las Haciendas Ciudad Obregón,<br>Sonora CP 85064<br>Tel: (52 644) 413 0170</p>'
-              },
-              {
-                title: 'Tijuana',
-                position: {lat: 32.5019788, lng: -116.9038801},
-                markup: '<h4>Tijuana</h4><p>Calle Boca del Lobo Oriente # 6612<br>Fracc. Los Lobos Tijuana, B.C. CP. 22207<br>Tel: (52 664) 275 1199</p>'
-              },
-              {
-                title: 'Culiacán',
-                position: {lat: 24.8363679, lng: -107.3750056},
-                markup: '<h4>Culiacán</h4><p>Xicotencatl No. 3759 Col. Rosario Uzarraga<br>Culiacán, Sinaloa<br>Tel: (52 667) 296 4662</p>'
-              },
-              {
-                title: 'León',
-                position: {lat: 21.1398889, lng: -101.6943767},
-                markup: '<h4>León</h4><p>Dr. Rodolfo González Hurtado No. 104A, Col. Los Paraísos<br>León, Gto. CP. 37320<br>Tel: (52 477) 391 86 36 37</p>'
-              },
-              {
-                title: 'Mexicali',
-                position: {lat: 32.6266873, lng: -115.5783104},
-                markup: '<h4>Mexicali</h4><p>Av. Cuatro Ciénegas N° 2082 – 7 Col. Ex Ejido<br>Coahuila Mexicali, B.C. CP21360<br>Tel: (52 686) 564 6456'
-              },
-            ];
+      
+        $('#myCollapsible').on('hidden.bs.collapse', function () {
+  // do something...
+})
+        $('#myCollapsible').collapse({
+  toggle: false
+})
+      </script>
+          <script src="js/registro.js"></script>
 
-            map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 5,
-              center: myLatLng
-            });
-
-            locations.forEach( element => {
-              var marker = new google.maps.Marker({
-                  position: element.position,
-                  map: map,
-                  title: element.title,
-                  icon: element.icon,
-                });
-
-              var information = new google.maps.InfoWindow({
-                content: element.markup
-              });
-
-              marker.addListener('click', function() {
-                  information.open(map, marker);
-                });
-              });
-          }
-        }
-      });
-    </script>
-    <script type="text/javascript">
-      var app = new Vue({
-        el: '#search',
-        data: {
-          content: [
-            {
-              name: 'Página de Inicio',
-              url: '/pca/index.html',
-              words: 'página de inicio red de oficinas quienes somos misión visión valores transportes marítimo carga siniestros'
-            },
-            {
-              name: 'Nosotros',
-              url: '/pca/index.html#nosotros',
-              words: 'nosotros '
-            },
-            {
-              name: 'Servicios',
-              url: '/pca/index.html#servicios',
-              words: 'servicios'
-            },
-            {
-              name: 'Siniestros',
-              url: '/pca/index.html#siniestros',
-              words: 'siniestros'
-            },
-            {
-              name: 'Gestión de Calidad',
-              url: '/pca/gestiondecalidad.html',
-              words: 'gestión de calidad'
-            },
-            {
-              name: "LLOYD's Agency",
-              url: '/pca/lloydsagency.html',
-              words: "somos LLOYD's agency conócenos datos mapa"
-            },
-            {
-              name: "Contacto",
-              url: '/pca/contacto.php',
-              words: "contacto mensaje oficinas ciudad de méxico guadalajara monterrey puebla veracruz hermosillo ciudad obregón tijuana culiacán león mexicali"
-            },
-          ],
-          results: null,
-          keywords: null
-        },
-        mounted(){
-
-        },
-        methods: {
-          searchUrl(text){
-            if(text){
-              this.results = this.content
-                         .filter( item  => item.words.includes(text.toLowerCase()) );
-            }
-          },
-          goToLink(url){
-            window.location.href = url;
-          }
-        }
-      });
-    </script>
     </body>
+    
 </html
