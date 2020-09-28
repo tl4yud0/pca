@@ -275,7 +275,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                         <h2 style="font-size:18px">
-                        Nuevo León
+                        León
                         </h2>
                         <div  class="button-collapse"></div>
                         </button>
@@ -284,7 +284,7 @@
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Christian Guzmán Carrera</h4>
-                       <p>Director Asociado Nuevo León</p>
+                       <p>Director Asociado León</p>
                       </div>
                     </div>
                   </div>

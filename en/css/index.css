@@ -11,6 +11,9 @@ src: url("../fonts/AvenirLTStd-Book.otf");
 src: url("../fonts/AvenirLTStd-Black.otf");
 }
 
+#header .container .contenet-menu .logos{
+    width: 284px;
+}
 body{
     font-family:'avenir-book';
     background-color: #ffffff;
