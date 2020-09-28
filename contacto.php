@@ -373,7 +373,7 @@
         
     </section>
  </section>
-   <!--footer-->
+  <!--footer-->
    <footer id="footer" class="pb-2 pt-2">
         <div class="container">
           <div class="row">
@@ -381,9 +381,9 @@
              <ul>
                 <p class="footer-title">LINK DE INTERES</p>
                 <li class="pb-1 pt-1"> <a class="footer-link" href="index.html">Inicio</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#nosotros">Nosotros</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#servicios">Servicios</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="">Leyes Códigos</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="#nosotros">Nosotros</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="#servicios">Servicios</a></li>
+<!--                <li class="pb-1 pt-1"> <a class="footer-link" href="">Leyes Códigos</a></li>-->
                 <li class="pb-1 pt-1"> <a class="footer-link" href="https://www.banxico.org.mx/tipcamb/tipCamIHAction.do">Tipo de cambio $</a></li>
              </ul>
               
@@ -394,12 +394,14 @@
             </div>
             <div class="col-12 col-lg-4 pb-3 pt-3 text-right align-mobile-left">
               <p class="footer-title">CONTACTO</p>
-              <a  href=""><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
-              <p class="footer-text pt-5">Grupo PCA - Aviso de privacidad</p>
+              <a  href="contacto.php"><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
+              <a href="https://www.proca.com.mx/AvisoPrivacidad/AvisoPrivacidad(Ene2017).pdf">
+              <p class="footer-text pt-5">Grupo PCA - Aviso de privacidad</p></a>
             </div>
           </div>
         </div>
     </footer>
+<!--/footer-->
     <!-- Modal -->
     <div
       class="modal fade"

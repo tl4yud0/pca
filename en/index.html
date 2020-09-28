@@ -647,7 +647,7 @@
             </div>
             <div class="col-12 col-lg-4 pb-3 pt-3 text-right align-mobile-left">
               <p class="footer-title">CONTACT US</p>
-              <a  href=""><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
+              <a  href="contact-us.php"><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
               <a href="https://www.proca.com.mx/AvisoPrivacidad/AvisoPrivacidad(Ene2017).pdf">
               <p class="footer-text pt-5">PCA Group - Policies and procedures</p></a>
             </div>
@@ -670,7 +670,7 @@
           style="background-color: #F8F9FA; z-index: 2000 !important">
           <div class="modal-header">
             <h5 class="modal-title" id="staticBackdropLabel">
-              Buscar en el sitio
+               Search in the site
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -690,20 +690,20 @@
                   class="btn btn-primary"
                   type="button"
                   @click="searchUrl(keywords)">
-                  Buscar
+                  Search
                 </button>
                 <button
                   class="btn btn-outline-secondary"
                   type="button"
                   @click="keywords = null, results = null">
-                  Limpiar
+                  Clean
                 </button>
               </div>
             </div>
             <p v-if="keywords && results">
-              <b>Resultados para "{{keywords }}"</b>
+              <b>Results for "{{keywords }}"</b>
               <br>
-              <small>{{ results ? results.length : 0  }} resultado(s)</small>
+              <small>{{ results ? results.length : 0  }} result(s)</small>
             </p>
             <ul class="list-group">
               <li

@@ -46,23 +46,23 @@
               </div> 
               <div class="menu mb-2">
                     <ul class="navbar-nav ml-auto">
-                      <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#nosotros">Nosotros</a>
+                       <li class="nav-item pr-3">
+                        <a class="nav-link" href="index.html#company">Company</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#servicios">Servicios</a>
+                        <a class="nav-link" href="index.html#services">Services</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#siniestros">Siniestros</a>
+                        <a class="nav-link" href="index.html#sinister">Sinister</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link activado" href="gestiondecalidad.html">Gestión de Calidad</a>
+                        <a class="nav-link activado" href="quality-management.html">Quality Management</a>
                       </li>
                       <li class="nav-item pr-3">
                         <a class="nav-link" href="lloydsagency.html">LLOYD`S Agency</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="contacto.php">Contacto</a>
+                        <a class="nav-link" href="contact-us.php">Contac us</a>
                       </li>
                       <li>
                         <button
@@ -85,7 +85,7 @@
     <div class="container-fluid  pt-3 pb-5">
         <div class="cont-language">
             <p>
-              <a href="./gestiondecalidad.html" class="espaniol"> Español </a> 
+              <a href="../gestiondecalidad.html" class="espaniol"> Español </a> 
               |
               <a href="" class="english"> English </a>
             </p>
@@ -167,7 +167,6 @@
             
       
        
-
 <!--footer-->
    <footer id="footer" class="pb-2 pt-2">
         <div class="container">
@@ -175,11 +174,11 @@
             <div class="col-12 col-lg-4 pb-3 pt-3">
              <ul>
                 <p class="footer-title">LINK DE INTERES</p>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html">Inicio</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#nosotros">Nosotros</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#servicios">Servicios</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="">Leyes Códigos</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="https://www.banxico.org.mx/tipcamb/tipCamIHAction.do">Tipo de cambio $</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html">Home</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#company">Company</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#services">Services</a></li>
+<!--                <li class="pb-1 pt-1"> <a class="footer-link" href="">Leyes Códigos</a></li>-->
+                <li class="pb-1 pt-1"> <a class="footer-link" href="https://www.banxico.org.mx/tipcamb/tipCamIHAction.do">Exchange Rate $</a></li>
              </ul>
               
             </div>
@@ -188,13 +187,16 @@
                 <a href=""><img src="images/linkedin.jpg" alt=""></a>
             </div>
             <div class="col-12 col-lg-4 pb-3 pt-3 text-right align-mobile-left">
-              <p class="footer-title">CONTACTO</p>
-              <a  href=""><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
-              <p class="footer-text pt-5">Grupo PCA - Aviso de privacidad</p>
+              <p class="footer-title">CONTACT US</p>
+              <a  href="contact-us.php"><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
+              <a href="https://www.proca.com.mx/AvisoPrivacidad/AvisoPrivacidad(Ene2017).pdf">
+              <p class="footer-text pt-5">PCA Group - Policies and procedures</p></a>
             </div>
           </div>
         </div>
     </footer>
+<!--/footer-->
+   
     <!-- Modal -->
     <div
       class="modal fade"
@@ -210,7 +212,7 @@
           style="background-color: #F8F9FA; z-index: 2000 !important">
           <div class="modal-header">
             <h5 class="modal-title" id="staticBackdropLabel">
-              Buscar en el sitio
+              Search in the site
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -230,20 +232,20 @@
                   class="btn btn-primary"
                   type="button"
                   @click="searchUrl(keywords)">
-                  Buscar
+                  Search
                 </button>
                 <button
                   class="btn btn-outline-secondary"
                   type="button"
                   @click="keywords = null, results = null">
-                  Limpiar
+                  Clean
                 </button>
               </div>
             </div>
             <p v-if="keywords && results">
-              <b>Resultados para "{{keywords }}"</b>
+              <b>Results for "{{keywords }}"</b>
               <br>
-              <small>{{ results ? results.length : 0  }} resultado(s)</small>
+              <small>{{ results ? results.length : 0  }} results(s)</small>
             </p>
             <ul class="list-group">
               <li

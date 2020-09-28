@@ -37,13 +37,14 @@ src: url("fonts/AvenirLTStd-Black.otf");
      align-items: center;
  }
  #idiomas .cont-language p a.espaniol{
-     color: #fbf100;
-     margin-right: 10px;
+      color: #ffffff;
+    margin-right: 10px;
  }
  #idiomas .cont-language p a.english{
-     color: #ffffff;
-     margin-left: 10px;
+     color: #fbf100;
+    margin-left: 10px;
  }
+
 
 
 /*

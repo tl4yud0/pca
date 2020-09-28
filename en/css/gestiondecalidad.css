@@ -57,11 +57,12 @@
      align-items: center;
  }
  #gestion .cont-language p a.espaniol{
-     color: #fbf100;
+          color: #ffffff;
      margin-right: 10px;
  }
  #gestion .cont-language p a.english{
-     color: #ffffff;
+
+     color: #fbf100;
      margin-left: 10px;
  }
 

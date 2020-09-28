@@ -35,11 +35,12 @@ padding-top: 140px;
      align-items: center;
  }
  #lloydsagency .cont-language p a.espaniol{
-     color: #fbf100;
+     color: #ffffff;
      margin-right: 10px;
  }
  #lloydsagency .cont-language p a.english{
-     color: #ffffff;
+
+          color: #fbf100;
      margin-left: 10px;
  }
 
@@ -128,7 +129,7 @@ padding-top: 140px;
  .container-button a{
       margin-left: 10px;
       margin-right: 10px;
-      width: 156px;
+      width: 250px;
       height: 49px;
       background-color: #336699;
       color: white !important;
@@ -141,7 +142,7 @@ padding-top: 140px;
  .container-button a:hover{
       margin-left: 10px;
       margin-right: 10px;
-      width: 156px;
+      width: 250px;
       height: 49px;
       background-color: #1e3e96;
       color: white !important;
