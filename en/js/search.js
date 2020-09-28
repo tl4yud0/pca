@@ -3,46 +3,46 @@ var app = new Vue({
   data: {
     content: [
       {
-        name: 'Página de Inicio',
+        name: 'Home page',
         description: '',
-        url: '/pca/index.html',
-        words: 'página de inicio red de oficinas quienes somos misión visión valores transportes marítimo carga siniestros'
+        url: '/en/en/index.html',
+        words: 'home page offices about us mission vision values transports shipments sinisters'
       },
       {
-        name: 'Nosotros',
+        name: 'About us',
         description: '',
-        url: '/pca/index.html#nosotros',
-        words: 'nosotros '
+        url: '/en/index.html#company',
+        words: 'about us Quality Transcendence Passion Honesty Responsability Commitment Layalty'
       },
       {
-        name: 'Servicios',
+        name: 'Services',
         description: '',
-        url: '/pca/index.html#servicios',
-        words: 'servicios'
+        url: '/en/index.html#services',
+        words: 'services breadth professional adjusters Catastrophic events cargo maritime losses boilers technical violence equipment civil liability'
       },
       {
-        name: 'Siniestros',
+        name: 'Sinisters',
         description: '',
-        url: '/pca/index.html#siniestros',
-        words: 'siniestros'
+        url: '/en/index.html#sinister',
+        words: 'sinisters implement strict requirements'
       },
       {
-        name: 'Gestión de Calidad',
+        name: 'Quality management',
         description: '',
-        url: '/pca/gestiondecalidad.html',
-        words: 'gestión de calidad'
+        url: '/en/quality-management.html',
+        words: 'quality management constant ISO 9001 PCA Group Type AJ-III Type AJ-V Transportation TOTAL QUALITY'
       },
       {
         name: "LLOYD's Agency",
         description: '',
-        url: '/pca/lloydsagency.html',
-        words: "somos LLOYD's agency conócenos datos mapa"
+        url: '/en/lloydsagency.html',
+        words: "we are LLOYD's agency about us data map London international Agency Network provides worldwide presence"
       },
       {
-        name: "Contacto",
+        name: "Contact",
         description: '',
-        url: '/pca/contacto.php',
-        words: "contacto mensaje oficinas ciudad de méxico guadalajara monterrey puebla veracruz hermosillo ciudad obregón tijuana culiacán león mexicali"
+        url: '/en/contact-us.php',
+        words: "contact messages offices mexico city guadalajara monterrey puebla veracruz hermosillo ciudad obregon tijuana culiacan leon mexicali"
       },
     ],
     results: null,

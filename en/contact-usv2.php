@@ -24,7 +24,7 @@
     <body>
        <!--  header-->
   
-  <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
       <a href="index.html" class="navbar-brand" href="">
           <img style="width: 170px;" src="images/logo-header-pca.png" alt="Grupo PCA">
@@ -37,7 +37,7 @@
         <div class="contenet-menu ">
               <div class="logos mt-2 mb-2">
                     
-                        <img class="mr-1" src="images/logo-lloyds.svg" alt="">
+                        <img class="mr-1" src="images/logo-lloyds.jpg" alt="">
                    
                     <a href="https://proclaims.mx:8443/grupopca/">
                         <img class="ml-1" src="images/login.jpg" alt="">
@@ -46,22 +46,22 @@
               <div class="menu mb-2">
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#nosotros">Nosotros</a>
+                        <a class="nav-link" href="index.html#company">Company</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#servicios">Servicios</a>
+                        <a class="nav-link" href="index.html#services">Services</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#siniestros">Siniestros</a>
+                        <a class="nav-link" href="index.html#sinister">Sinister</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="gestiondecalidad.html">Gestión de Calidad</a>
+                        <a class="nav-link" href="quality-management.html">Quality Management</a>
                       </li>
                       <li class="nav-item pr-3">
                         <a class="nav-link" href="lloydsagency.html">LLOYD`S Agency</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link activado" href="contacto.php">Contacto</a>
+                        <a class="nav-link activado" href="contact-us.php">Contac us</a>
                       </li>
                       <li>
                         <button
@@ -71,6 +71,78 @@
                           data-target="#staticBackdrop">
                           <img style="width: 26px;" src="images/buscar.png" alt="lupa">
                         </button>
+                        <!-- Modal -->
+                        <div
+                          class="modal fade"
+                          id="staticBackdrop"
+                          data-backdrop="static"
+                          data-keyboard="false"
+                          tabindex="-1"
+                          aria-labelledby="staticBackdropLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog" id="search">
+                            <div class="modal-content" style="background-color: #F8F9FA">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">
+                                  Search in the site
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+
+                                <div class="input-group mb-2">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    aria-label="Recipient's username with two button addons"
+                                    aria-describedby="button-addon4"
+                                    v-model="keywords">
+                                  <div class="input-group-append" id="button-addon4">
+                                    <button
+                                      class="btn btn-primary"
+                                      type="button"
+                                      @click="searchUrl(keywords)">
+                                      Search
+                                    </button>
+                                    <button
+                                      class="btn btn-outline-secondary"
+                                      type="button"
+                                      @click="keywords = null, results = null">
+                                      Clean
+                                    </button>
+                                  </div>
+                                </div>
+                                <p v-if="keywords && results">
+                                  <b>Resultados para "{{keywords }}"</b>
+                                  <br>
+                                  <small>{{ results ? results.length : 0  }} results(s)</small>
+                                </p>
+                                <ul class="list-group">
+                                  <li
+                                    class="list-group-item"
+                                    style="background-color: #F8F9FA"
+                                    v-for="result in results">
+                                    <button
+                                      type="button"
+                                      class="btn btn-link pl-0"
+                                      @click="goToLink(result.url)">
+                                      {{ result.name }}
+                                    </button>
+<!--
+                                    <p>
+                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </p>
+-->
+                                  </li>
+                                </ul>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                       </li>
                     </ul>
               </div>
@@ -79,27 +151,21 @@
     </div>
 </nav>
 <!-- / header-->
+
         <section id="idiomas" class="" >
     <div class="container-fluid  pt-3 pb-5">
         <div class="cont-language">
             <p>
-              <a href="" class="espaniol"> Español </a> 
+              <a href="../contacto.php" class="espaniol"> Español </a> 
               |
-              <a href="en/contact-us.php" class="english"> English </a>
+              <a href="" class="english"> English </a>
             </p>
          </div>
-<!--
-        <div class="cont-quienes-somos">
-            <div class="box-1"></div>
-            <h2>Somos <span> Lloyd's</span> </h2>
-            <p>Agency</p>
-            <div class="box-2"></div>
-          </div>
--->
  
     
   </div>
 </section>
+
 
 <section id="contacto" class="" >
       <div class="pt-3 pb-5">
@@ -120,9 +186,9 @@
                     <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#accordionExample">
                       <div class="card-body card-text">
                        <h4>Roberto López Vidrio</h4>
-                       <p>Director General</p>
+                       <p>Managing Director</p>
                        <h4>Julio C. López Sáinz</h4>
-                       <p>Director Adjunto</p>
+                       <p>Deputy Director</p>
                       </div>
                     </div>
                   </div>
@@ -140,7 +206,7 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div class="card-body">
                        <h4>Esfras Alejandro Pérez Sanchéz</h4>
-                       <p>Director Asociado Guadalajara</p>
+                       <p>Associate director Guadalajara</p>
                       </div>
                     </div>
                   </div>
@@ -158,7 +224,7 @@
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>L.A.E. Salvadore Rosas Romo</h4>
-                       <p>Gerente de oficina Monterrey</p>
+                       <p>Office manager Monterrey</p>
                       </div>
                     </div>
                   </div>
@@ -176,7 +242,7 @@
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Jose Uriel Alcaide Tirado</h4>
-                       <p>Director Asociado Puebla</p>
+                       <p>Associate director Puebla</p>
                       </div>
                     </div>
                   </div>
@@ -194,7 +260,7 @@
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Jose Uriel Alcaide Tirado</h4>
-                       <p>Director Asociado Veracruz</p>
+                       <p>Associate director Veracruz</p>
                       </div>
                     </div>
                   </div>
@@ -212,7 +278,7 @@
                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Erasmo Moreno Martínez</h4>
-                       <p>Director Asociado Hermosillo</p>
+                       <p>Associate director Hermosillo</p>
                       </div>
                     </div>
                   </div>
@@ -230,7 +296,7 @@
                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Dayanira Moreno M.</h4>
-                       <p>Directora Asociada Ciudad Obregón</p>
+                       <p>Associate director Ciudad Obregón</p>
                       </div>
                     </div>
                   </div>
@@ -248,7 +314,7 @@
                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Hugo S. Monje</h4>
-                       <p>Director Asociado Tijuana</p>
+                       <p>Associate director Tijuana</p>
                       </div>
                     </div>
                   </div>
@@ -266,7 +332,7 @@
                     <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Erasmo Moreno Martínez</h4>
-                       <p>Director Asociado Hermosillo</p>
+                       <p>Associate director Hermosillo</p>
                       </div>
                     </div>
                   </div>
@@ -284,7 +350,7 @@
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Christian Guzmán Carrera</h4>
-                       <p>Director Asociado Nuevo León</p>
+                       <p>Associate director Nuevo León</p>
                       </div>
                     </div>
                   </div>
@@ -302,7 +368,7 @@
                     <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Hugo S. Monje</h4>
-                       <p>Director Asociado Tijuana</p>
+                       <p>Associate director Tijuana</p>
                       </div>
                     </div>
                   </div>
@@ -335,8 +401,8 @@
                <div class="contact-details col-12 col-md-12 col-lg-8 mb-4 ">
                <form  method="post" id="contactform"  enctype="multipart/form-data">
                        <div class="container-form">
-                            <h3 style>ENVÍANOS UN MENSAJE</h3>
-                            <p>Por favor llena el siguiente formulario para ponernos en contacto a la brevedad</p>
+                            <h3 style>SEND US A MESSAGE</h3>
+                            <p>Please fill out the following form to get in touch as soon as possible</p>
                               <div class="form-group">
                                 <input  class="form-control" type="text" placeholder="Nombre"    name="name" required>
                               </div>
@@ -366,7 +432,9 @@
 
                        
                   </form>
-                  <h2 class="contact-title thanks" >¡Gracias! Nos pondremos en contacto contigo lo antes posible. </h2> <p class="contact-p thanks">No olvides revisar tu correo no deseado</p>
+                  <h2 class="contact-title thanks" >¡Gracias! 
+We will get in touch with you as soon as possible.</h2> <p class="contact-p thanks">
+Don't forget to check your spam</p>
                 </div> 
             </article>
         </div>
@@ -380,96 +448,30 @@
             <div class="col-12 col-lg-4 pb-3 pt-3">
              <ul>
                 <p class="footer-title">LINK DE INTERES</p>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html">Inicio</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#nosotros">Nosotros</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#servicios">Servicios</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html">Home</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#company">Company</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#services">Services</a></li>
 <!--                <li class="pb-1 pt-1"> <a class="footer-link" href="">Leyes Códigos</a></li>-->
-                <li class="pb-1 pt-1"> <a class="footer-link" href="https://www.banxico.org.mx/tipcamb/tipCamIHAction.do">Tipo de cambio $</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="https://www.banxico.org.mx/tipcamb/tipCamIHAction.do">Exchange Rate $</a></li>
              </ul>
               
             </div>
             <div class="col-12 col-lg-4 pb-3 pt-3">
-<!--
                 <a href=""><img class="pr-4" src="images/instagram.jpg" alt=""></a>
                 <a href=""><img src="images/linkedin.jpg" alt=""></a>
--->
             </div>
             <div class="col-12 col-lg-4 pb-3 pt-3 text-right align-mobile-left">
-              <p class="footer-title">CONTACTO</p>
-              <a  href="contacto.php"><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
-              <a href="https://www.proca.com.mx/AvisoPrivacidad/AvisoPrivacidad(Ene2017).pdf">
-              <p class="footer-text pt-5">Grupo PCA - Aviso de privacidad</p></a>
+              <p class="footer-title">CONTACT US</p>
+              <a  href="contact-us.php"><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
+              <a href="https://www.proca.com.mx/english/AvisoPrivacidad/CompanyPolicyProcedures_PCA_LA-Guadalajara%20Mx(2018).pdf">
+              <p class="footer-text pt-5">PCA Group - Policies and procedures</p></a>
             </div>
           </div>
         </div>
     </footer>
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="staticBackdrop"
-      data-backdrop="static"
-      data-keyboard="false"
-      tabindex="-1"
-      aria-labelledby="staticBackdropLabel"
-      aria-hidden="true">
-      <div class="modal-dialog" id="search">
-        <div class="modal-content" style="background-color: #F8F9FA">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">
-              Buscar en el sitio
-            </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
 
-            <div class="input-group mb-2">
-              <input
-                type="text"
-                class="form-control"
-                aria-label="Recipient's username with two button addons"
-                aria-describedby="button-addon4"
-                v-model="keywords">
-              <div class="input-group-append" id="button-addon4">
-                <button
-                  class="btn btn-primary"
-                  type="button"
-                  @click="searchUrl(keywords)">
-                  Buscar
-                </button>
-                <button
-                  class="btn btn-outline-secondary"
-                  type="button"
-                  @click="keywords = null, results = null">
-                  Limpiar
-                </button>
-              </div>
-            </div>
-            <p v-if="keywords && results">
-              <b>Resultados para "{{keywords }}"</b>
-              <br>
-              <small>{{ results ? results.length : 0  }} resultado(s)</small>
-            </p>
-            <ul class="list-group">
-              <li
-                class="list-group-item"
-                style="background-color: #F8F9FA"
-                v-for="result in results">
-                <button
-                  type="button"
-                  class="btn btn-link pl-0"
-                  @click="goToLink(result.url)">
-                  {{ result.name }}
-                </button>
-                <p>{{ result.description }}</p>
-              </li>
-            </ul>
 
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!--/footer-->
    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -591,6 +593,65 @@
         }
       });
     </script>
-    <script src="js/search.js"></script>
+    <script type="text/javascript">
+      var app = new Vue({
+        el: '#search',
+        data: {
+          content: [
+            {
+              name: 'Página de Inicio',
+              url: '/pca/index.html',
+              words: 'página de inicio red de oficinas quienes somos misión visión valores transportes marítimo carga siniestros'
+            },
+            {
+              name: 'Nosotros',
+              url: '/pca/index.html#nosotros',
+              words: 'nosotros '
+            },
+            {
+              name: 'Servicios',
+              url: '/pca/index.html#servicios',
+              words: 'servicios'
+            },
+            {
+              name: 'Siniestros',
+              url: '/pca/index.html#siniestros',
+              words: 'siniestros'
+            },
+            {
+              name: 'Gestión de Calidad',
+              url: '/pca/gestiondecalidad.html',
+              words: 'gestión de calidad'
+            },
+            {
+              name: "LLOYD's Agency",
+              url: '/pca/lloydsagency.html',
+              words: "somos LLOYD's agency conócenos datos mapa"
+            },
+            {
+              name: "Contacto",
+              url: '/pca/contacto.php',
+              words: "contacto mensaje oficinas ciudad de méxico guadalajara monterrey puebla veracruz hermosillo ciudad obregón tijuana culiacán león mexicali"
+            },
+          ],
+          results: null,
+          keywords: null
+        },
+        mounted(){
+
+        },
+        methods: {
+          searchUrl(text){
+            if(text){
+              this.results = this.content
+                         .filter( item  => item.words.includes(text.toLowerCase()) );
+            }
+          },
+          goToLink(url){
+            window.location.href = url;
+          }
+        }
+      });
+    </script>
     </body>
 </html

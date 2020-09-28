@@ -1245,3 +1245,258 @@ body{
         
     }
 }
+
+@media (max-width: 480px){
+     #main .carousel-item .cont-texcarusel {
+    width: 290px;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel .cont-text {
+    position: relative;
+    width: 260px;
+}
+
+ #main .carousel-item .cont-texcarusel .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -35px;
+     top: 10px;
+ }
+ #main .carousel-item .cont-texcarusel h2{
+    font-size: 42px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 3px;
+     bottom: 5px;
+ }
+#main .carousel-item .cont-texcarusel .box-cuadro1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 3px;
+     bottom: 15px;
+ }
+#main .carousel-item .cont-texcarusel .box-cuadro2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 153px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro3{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 43px;
+     bottom: 5px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro4{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 8px;
+     bottom: 5px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro5{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 73px;
+     bottom: 5px;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right .line-cont{
+    width: 280px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right p{
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #006098;
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+#main .carousel-item .cont-texcarusel-grande {
+    width: 290px;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel-grande .cont-text {
+    position: relative;
+    width: 260px;
+}
+
+ #main .carousel-item .cont-texcarusel-grande .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -35px;
+     top: 10px;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2{
+    font-size: 42px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel-grande .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 63px;
+     bottom: 5px;
+ }
+#main .carousel-item .cont-texcarusel-grande .box-cuadro1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 3px;
+     bottom: 15px;
+ }
+#main .carousel-item .cont-texcarusel-grande .box-cuadro2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 153px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .box-cuadro3{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 43px;
+     bottom: 5px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .box-cuadro4{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 8px;
+     bottom: 5px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .box-cuadro5{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 73px;
+     bottom: 5px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right .line-cont{
+    width: 280px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right p{
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel-grande .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #006098;
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
