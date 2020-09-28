@@ -24,7 +24,7 @@
     <body>
        <!--  header-->
   
-  <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div class="container">
       <a href="index.html" class="navbar-brand" href="">
           <img style="width: 170px;" src="images/logo-header-pca.png" alt="Grupo PCA">
@@ -37,7 +37,7 @@
         <div class="contenet-menu ">
               <div class="logos mt-2 mb-2">
                     
-                        <img class="mr-1" src="images/logo-lloyds.jpg" alt="">
+                        <img class="mr-1" src="images/logo-lloyds.svg" alt="">
                    
                     <a href="https://proclaims.mx:8443/grupopca/">
                         <img class="ml-1" src="images/login.jpg" alt="">
@@ -64,9 +64,15 @@
                         <a class="nav-link" href="contacto.php">Contacto</a>
                       </li>
                       <li>
-                        <img style="width: 26px;" src="images/buscar.png" alt="lupa">
+                        <button
+                          type="button"
+                          class="btn btn-link"
+                          data-toggle="modal"
+                          data-target="#staticBackdrop">
+                          <img style="width: 26px;" src="images/buscar.png" alt="lupa">
+                        </button>
                       </li>
-                    </ul>						 	
+                    </ul>
               </div>
         </div>
       </div>
@@ -80,7 +86,7 @@
             <p>
               <a href="" class="espaniol"> Español </a> 
               |
-              <a href="" class="english"> English </a>
+              <a href="/en/lloydsagency.html" class="english"> English </a>
             </p>
          </div>
         <div class="cont-quienes-somos">
@@ -99,7 +105,7 @@
         <div class="row">
             <div class="col-12 col-lg-4 col-md-4 mb-4 cont-img" >
                
-                  <img src="images/logo-lloyds.jpg"  class="card-img-top" alt="speaker1">
+                  <img src="images/logo-lloyds.svg"  class="card-img-top" alt="speaker1">
                 
             </div>
             <div class="col-12 col-lg-8 col-md-8 mb-8">
@@ -115,10 +121,10 @@
        
         </div>
         <div class="row container-button">
-               <a href="https://www.youtube.com/watch?v=t7C-ZqyBmk8&feature=youtu.be"  class="submit-btn  " ><p> Conócenos </p> <p>   <span> Ver video </span> </p></a>
-               <a href="http://agency.lloyds.com/AgentDetails/241" class="submit-btn" > Datos</a>
-               <a href="http://agency.lloyds.com/map#guadalajara,mexico,6"  class="submit-btn" > Mapa </a>
-               <a href="https://www.lloyds.com/market-resources/lloyds-agency"  class="submit-btn" > Ir al sitio</a>
+               <a  href="https://www.youtube.com/watch?v=t7C-ZqyBmk8&feature=youtu.be"  class="submit-btn  mt-2 " ><p> Conócenos </p> <p>   <span> Ver video </span> </p></a>
+               <a  href="http://agency.lloyds.com/AgentDetails/241" class="submit-btn mt-2" > Datos</a>
+               <a  href="http://agency.lloyds.com/map#guadalajara,mexico,6"  class="submit-btn mt-2" > Mapa </a>
+               <a  href="https://www.lloyds.com/market-resources/lloyds-agency"  class="submit-btn mt-2" > Ir al sitio</a>
 
         </div>
     </div>
@@ -145,22 +151,89 @@
             </div>
             <div class="col-12 col-lg-4 pb-3 pt-3 text-right align-mobile-left">
               <p class="footer-title">CONTACTO</p>
-              <a  href=""><img class="pb-3 pt-2" src="images/logo-lloyds.jpg" alt=""></a>
+              <a  href=""><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
               <p class="footer-text pt-5">Grupo PCA - Aviso de privacidad</p>
             </div>
           </div>
         </div>
     </footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" id="search">
+        <div
+          class="modal-content"
+          style="background-color: #F8F9FA; z-index: 2000 !important">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Buscar en el sitio
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
 
+            <div class="input-group mb-2">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Recipient's username with two button addons"
+                aria-describedby="button-addon4"
+                v-model="keywords">
+              <div class="input-group-append" id="button-addon4">
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  @click="searchUrl(keywords)">
+                  Buscar
+                </button>
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  @click="keywords = null, results = null">
+                  Limpiar
+                </button>
+              </div>
+            </div>
+            <p v-if="keywords && results">
+              <b>Resultados para "{{keywords }}"</b>
+              <br>
+              <small>{{ results ? results.length : 0  }} resultado(s)</small>
+            </p>
+            <ul class="list-group">
+              <li
+                class="list-group-item"
+                style="background-color: #F8F9FA"
+                v-for="result in results">
+                <button
+                  type="button"
+                  class="btn btn-link pl-0"
+                  @click="goToLink(result.url)">
+                  {{ result.name }}
+                </button>
+                <p>{{ result.description }}</p>
+              </li>
+            </ul>
 
-
+          </div>
+        </div>
+      </div>
+    </div>
     <!--/footer-->
    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <!-- Vue JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -174,8 +247,8 @@
   toggle: false
 })
       </script>
-          <script src="js/registro.js"></script>
-
+      <script src="js/registro.js"></script>
+      <script src="js/search.js"></script>
     </body>
     
 </html

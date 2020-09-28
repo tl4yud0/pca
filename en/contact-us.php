@@ -83,9 +83,9 @@
     <div class="container-fluid  pt-3 pb-5">
         <div class="cont-language">
             <p>
-              <a href="" class="espaniol"> Español </a> 
+              <a href="./contacto.php" class="espaniol"> Español </a> 
               |
-              <a href="/en/contacto.php" class="english"> English </a>
+              <a href="" class="english"> English </a>
             </p>
          </div>
 <!--
@@ -120,9 +120,9 @@
                     <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#accordionExample">
                       <div class="card-body card-text">
                        <h4>Roberto López Vidrio</h4>
-                       <p>Director General</p>
+                       <p>Managing Director</p>
                        <h4>Julio C. López Sáinz</h4>
-                       <p>Director Adjunto</p>
+                       <p>Deputy Director</p>
                       </div>
                     </div>
                   </div>
@@ -140,7 +140,7 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div class="card-body">
                        <h4>Esfras Alejandro Pérez Sanchéz</h4>
-                       <p>Director Asociado Guadalajara</p>
+                       <p>Associate director Guadalajara</p>
                       </div>
                     </div>
                   </div>
@@ -158,7 +158,7 @@
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>L.A.E. Salvadore Rosas Romo</h4>
-                       <p>Gerente de oficina Monterrey</p>
+                       <p>Office manager Monterrey</p>
                       </div>
                     </div>
                   </div>
@@ -176,7 +176,7 @@
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Jose Uriel Alcaide Tirado</h4>
-                       <p>Director Asociado Puebla</p>
+                       <p>Associate director Puebla</p>
                       </div>
                     </div>
                   </div>
@@ -194,7 +194,7 @@
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Jose Uriel Alcaide Tirado</h4>
-                       <p>Director Asociado Veracruz</p>
+                       <p>Associate director Veracruz</p>
                       </div>
                     </div>
                   </div>
@@ -212,7 +212,7 @@
                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Erasmo Moreno Martínez</h4>
-                       <p>Director Asociado Hermosillo</p>
+                       <p>Associate director Hermosillo</p>
                       </div>
                     </div>
                   </div>
@@ -230,7 +230,7 @@
                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Dayanira Moreno M.</h4>
-                       <p>Directora Asociada Ciudad Obregón</p>
+                       <p>Associate director Ciudad Obregón</p>
                       </div>
                     </div>
                   </div>
@@ -248,7 +248,7 @@
                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Hugo S. Monje</h4>
-                       <p>Director Asociado Tijuana</p>
+                       <p>Associate director Tijuana</p>
                       </div>
                     </div>
                   </div>
@@ -266,7 +266,7 @@
                     <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Erasmo Moreno Martínez</h4>
-                       <p>Director Asociado Hermosillo</p>
+                       <p>Associate director Hermosillo</p>
                       </div>
                     </div>
                   </div>
@@ -284,7 +284,7 @@
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Christian Guzmán Carrera</h4>
-                       <p>Director Asociado Nuevo León</p>
+                       <p>Associate director Nuevo León</p>
                       </div>
                     </div>
                   </div>
@@ -302,7 +302,7 @@
                     <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Hugo S. Monje</h4>
-                       <p>Director Asociado Tijuana</p>
+                       <p>Associate director Tijuana</p>
                       </div>
                     </div>
                   </div>
@@ -335,19 +335,19 @@
                <div class="contact-details col-12 col-md-12 col-lg-8 mb-4 ">
                <form  method="post" id="contactform"  enctype="multipart/form-data">
                        <div class="container-form">
-                            <h3 style>ENVÍANOS UN MENSAJE</h3>
-                            <p>Por favor llena el siguiente formulario para ponernos en contacto a la brevedad</p>
+                            <h3 style>SEND US A MESSAGE</h3>
+                            <p>Please fill out the following form to get in touch as soon as possible</p>
                               <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Nombre"    name="name" required>
+                                <input  class="form-control" type="text" placeholder="Name"    name="name" required>
                               </div>
                               <div class="form-group">
                                 <input class="form-control"  type="email" type="email" placeholder="Email" name="email" required>
                               </div>
                               <div class="form-group">
-                                <input class="form-control"  type="text" type="email" placeholder="Asunto" name="asunto" required>
+                                <input class="form-control"  type="text" type="email" placeholder="Subject" name="asunto" required>
                               </div>
                               <div class="form-group">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"  placeholder="Mensaje"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"  placeholder="Message"></textarea>
                               </div>
                              <!-- <input class="form-input"  type="text" placeholder="Nombre*"    name="name" required>
                              <input  class="form-input"  type="email" placeholder="Correo electrónico*" name="email" required>

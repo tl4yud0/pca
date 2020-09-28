@@ -462,28 +462,28 @@ body{
 
 
 
-#servicios{
+#services{
     position: relative
 }
 
-#servicios .contenedor-industrias{
+#services .contenedor-industrias{
     height:30%; width: 100%;opacity: 0.6;
     background-color: #000000;position: absolute;z-index: 1;display: flex;justify-content: center;align-items: center;
 }
 
-#servicios .contenedor-industrias .contenedor-industrias-texto{
+#services .contenedor-industrias .contenedor-industrias-texto{
     width: 500px;
     color:white;
     display: flex;
 }
 
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
+#services .contenedor-industrias .contenedor-industrias-texto .text-left{
     display: flex;
     justify-content:center;
     align-items:center;
     font-size: 24px;
 }
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-left p{
+#services .contenedor-industrias .contenedor-industrias-texto .text-left p{
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -493,11 +493,11 @@ body{
     color: #fbf100;
 }
 
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-center{
+#services .contenedor-industrias .contenedor-industrias-texto .text-center{
     padding-left:15px;padding-right:15px; 
 }
 
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
+#services .contenedor-industrias .contenedor-industrias-texto .text-center p{
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -508,11 +508,11 @@ body{
     font-size: 5rem
 }
 
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-right{
+#services .contenedor-industrias .contenedor-industrias-texto .text-right{
     display: flex;justify-content:center;align-items:center
 }
 
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-right p{
+#services .contenedor-industrias .contenedor-industrias-texto .text-right p{
     font-weight: 300;
       font-stretch: normal;
       font-style: normal;
@@ -523,7 +523,7 @@ body{
     font-size: 16px;
 }
 
-#siniestros .contenedor-industrias{
+#sinister .contenedor-industrias{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -531,17 +531,17 @@ body{
     
 }
 
-#siniestros .contenedor-industrias .contenedor-industrias-texto{
+#sinister .contenedor-industrias .contenedor-industrias-texto{
     
     width: 500px;
     color:white;
     display: flex;
 }
 
-#siniestros .contenedor-industrias .contenedor-industrias-texto .text-left{
+#sinister .contenedor-industrias .contenedor-industrias-texto .text-left{
     display: flex;justify-content:center;align-items:center;
 }
-#siniestros .contenedor-industrias .contenedor-industrias-texto .text-left p{
+#sinister .contenedor-industrias .contenedor-industrias-texto .text-left p{
     font-size: 24px;
     font-weight: 300;
     font-stretch: normal;
@@ -552,11 +552,11 @@ body{
     color: #236095;
 }
 
-#siniestros .contenedor-industrias .contenedor-industrias-texto .text-center{
+#sinister .contenedor-industrias .contenedor-industrias-texto .text-center{
     padding-left:15px;padding-right:15px; 
 }
 
-#siniestros .contenedor-industrias .contenedor-industrias-texto .text-center p{
+#sinister .contenedor-industrias .contenedor-industrias-texto .text-center p{
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -567,11 +567,11 @@ body{
     font-size: 6rem
 }
 
-#siniestros .contenedor-industrias .contenedor-industrias-texto .text-right{
+#sinister .contenedor-industrias .contenedor-industrias-texto .text-right{
     display: flex;justify-content:center;align-items:center
 }
 
-#siniestros .contenedor-industrias .contenedor-industrias-texto .text-right p{
+#sinister .contenedor-industrias .contenedor-industrias-texto .text-right p{
     
     font-weight: 300;
       font-stretch: normal;
@@ -816,7 +816,7 @@ body{
     
 
 @media (max-width: 991.98px) { 
-    #nosotros .quienesSomos-container{
+    #company .quienesSomos-container{
     background: url(none);
 }
     
@@ -829,36 +829,36 @@ body{
     transform: translate(-50%, -75%);
 }
     
-    #siniestros{
+    #sinister{
         position: none;
 /*        outline: 1px solid red;*/
     }
-    #siniestros .contenedor-industrias .contenedor-industrias-texto{
+    #sinister .contenedor-industrias .contenedor-industrias-texto{
     width: 500px;color:white;display: block;
 }
 
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-center p{
+    #sinister .contenedor-industrias .contenedor-industrias-texto .text-center p{
      display: none;
     }
     
 
-    #siniestros .contenedor-industrias{
+    #sinister .contenedor-industrias{
         position: relative;
         background: #ffffff;
         opacity: 1;
     }
 
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-left{
+    #sinister .contenedor-industrias .contenedor-industrias-texto .text-left{
         align-items: center;
         margin-top: 20px;
     }
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right{
+    #sinister .contenedor-industrias .contenedor-industrias-texto .text-right{
         align-items: center;
         text-align: center;
         padding-left: 20px;
         padding-right: 20px;
     }
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right p{
+    #sinister .contenedor-industrias .contenedor-industrias-texto .text-right p{
         text-align: center;
     }
     
@@ -878,38 +878,38 @@ body{
 
     }
     
-     #servicios{
+     #services{
         position: none;
      /* outline: 1px solid red; */
     }
 
 
-#servicios .contenedor-industrias .contenedor-industrias-texto{
+#services .contenedor-industrias .contenedor-industrias-texto{
     width: 500px;color:white;display: block;
 }
 
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
+#services .contenedor-industrias .contenedor-industrias-texto .text-center p{
  display: none;
 }
     
 
-    #servicios .contenedor-industrias{
+    #services .contenedor-industrias{
         position: relative;
         background: #111;
         opacity: 1;
     }
 
-    #servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
+    #services .contenedor-industrias .contenedor-industrias-texto .text-left{
         align-items: center;
         margin-top: 20px;
     }
-    #servicios .contenedor-industrias .contenedor-industrias-texto .text-right{
+    #services .contenedor-industrias .contenedor-industrias-texto .text-right{
         align-items: center;
         text-align: center;
         padding-left: 20px;
         padding-right: 20px;
     }
-    #servicios .contenedor-industrias .contenedor-industrias-texto .text-right p{
+    #services .contenedor-industrias .contenedor-industrias-texto .text-right p{
         text-align: center;
     }
 
@@ -1215,7 +1215,7 @@ body{
     
 }
 @media (max-width: 780px) { 
-    #nosotros .quienesSomos-container{
+    #company .quienesSomos-container{
     background: url(none);
     }
     

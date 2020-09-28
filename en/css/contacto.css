@@ -1,0 +1,217 @@
+@font-face{
+font-family: 'avenir-book';
+src: url("fonts/AvenirLTStd-Book.otf");
+    font-family: 'avenir-bold';
+src: url("fonts/AvenirLTStd-Black.otf");
+}
+#idiomas{
+    padding-top: 140px;
+}
+
+#idiomas .container-fluid{
+     background-color: #000000;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+ }
+#idiomas .cont-language{
+     position: absolute;
+     z-index: 1;
+     right: 15%;
+     top: 26%;
+ }
+ #idiomas .cont-language p {
+     font-size: 13px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 2.08;
+     letter-spacing: 0.13px;
+     text-align: left;
+     color: #ffffff;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #idiomas .cont-language p a.espaniol{
+     color: #fbf100;
+     margin-right: 10px;
+ }
+ #idiomas .cont-language p a.english{
+     color: #ffffff;
+     margin-left: 10px;
+ }
+
+
+/*
+#contacto{
+    padding-top: 140px;
+}
+*/
+.card{
+    border: 0;
+}
+.card-header{
+        background: #336699;
+}
+.grupo{
+    border-radius:0;
+    font-family:'avenir-book'; 
+    
+}
+.grupo .btn-link {
+    color: white;
+}
+
+.grupo .btn {
+    font-size: 19px;
+} 
+.card-body{
+    background:  #ebeef7;
+    margin-left: 30px;
+    box-shadow: 0;
+}
+
+.card-text h4{
+    color: #111;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-text p{
+    color: #111;
+    font-size: 13px;
+    font-weight: 100;
+}
+.thanks{
+    display: none;
+}
+
+.button-collapse{
+    width:15px;
+    height:15px;
+    background: rgb(51,102,153);
+    background: linear-gradient(135deg, rgba(51,102,153,1) 0%, rgba(51,102,153,1) 48%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%);
+    cursor: pointer;
+    transform: rotate(45deg);
+    margin-left:10px;
+    transition: .3s;
+
+}
+
+#headingOne button,
+#headingTwo button,
+#headingThree button,
+#headingFour button,
+#headingFive button,
+#headingSix button,
+#headingSeven button,
+#headingEight button,
+#headingNine button,
+#headingTen button,
+#headingEleven button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#headingOne button.collapsed .button-collapse,
+#headingTwo button.collapsed .button-collapse,
+#headingThree button.collapsed .button-collapse,
+#headingFour button.collapsed .button-collapse,
+#headingFive button.collapsed .button-collapse,
+#headingSix button.collapsed .button-collapse,
+#headingSeven button.collapsed .button-collapse,
+#headingEight button.collapsed .button-collapse,
+#headingNine button.collapsed .button-collapse,
+#headingTen button.collapsed .button-collapse,
+#headingEleven button.collapsed .button-collapse{
+    /* outline: 1px solid red; */
+    transform: rotate(-45deg);
+}
+
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour,
+#headingFive,
+#headingSix,
+#headingSeven,
+#headingEight,
+#headingNine,
+#headingTen,
+#headingEleven{
+    z-index: 1;
+
+}
+
+#collapseOne,
+#collapseTwo,
+#collapseThree,
+#collapseFour,
+#collapseFive,
+#collapseSix,
+#collapseSeven,
+#collapseEight,
+#collapseNine,
+#collapseTen,
+#collapseEleven{
+    position: relative; top: -30px; padding-top: 0px;
+}
+
+#collapseOne .card-body,
+#collapseTwo .card-body,
+#collapseThree .card-body,
+#collapseFour .card-body,
+#collapseFive .card-body,
+#collapseSix .card-body,
+#collapseSeven .card-body,
+#collapseEight .card-body,
+#collapseNine .card-body,
+#collapseTen .card-body,
+#collapseEleven .card-body{
+    padding-top: 45px;
+}
+
+.sombra .accordion .card:nth-child(2){
+    position: relative;
+    top: -10px;
+    
+}
+.sombra .accordion .card:nth-child(3),
+.sombra .accordion .card:nth-child(4),
+.sombra .accordion .card:nth-child(5),
+.sombra .accordion .card:nth-child(6),
+.sombra .accordion .card:nth-child(7),
+.sombra .accordion .card:nth-child(8),
+.sombra .accordion .card:nth-child(9),
+.sombra .accordion .card:nth-child(10),
+.sombra .accordion .card:nth-child(11){
+    /* outline: 5px solid red; */
+    position: relative;
+    top: -15px;
+}
+
+
+form h3{
+    font-size: 18.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: 0.93px;
+    text-align: left;
+    color: #336699;
+}
+.container-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.container-button .submit-btn{
+        background:#336699;
+        width: 128px;
+        height: 36px;
+        color: white;
+}
