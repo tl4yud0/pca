@@ -24,7 +24,7 @@
     <body>
        <!--  header-->
   
-  <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
       <a href="index.html" class="navbar-brand" href="">
           <img style="width: 170px;" src="images/logo-header-pca.png" alt="Grupo PCA">
@@ -37,7 +37,7 @@
         <div class="contenet-menu ">
               <div class="logos mt-2 mb-2">
                     
-                        <img class="mr-1" src="images/logo-lloyds.svg" alt="">
+                        <img class="mr-1" src="images/logo-lloyds.jpg" alt="">
                    
                     <a href="https://proclaims.mx:8443/grupopca/">
                         <img class="ml-1" src="images/login.jpg" alt="">
@@ -71,6 +71,78 @@
                           data-target="#staticBackdrop">
                           <img style="width: 26px;" src="images/buscar.png" alt="lupa">
                         </button>
+                        <!-- Modal -->
+                        <div
+                          class="modal fade"
+                          id="staticBackdrop"
+                          data-backdrop="static"
+                          data-keyboard="false"
+                          tabindex="-1"
+                          aria-labelledby="staticBackdropLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog" id="search">
+                            <div class="modal-content" style="background-color: #F8F9FA">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">
+                                  Search in the site
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+
+                                <div class="input-group mb-2">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    aria-label="Recipient's username with two button addons"
+                                    aria-describedby="button-addon4"
+                                    v-model="keywords">
+                                  <div class="input-group-append" id="button-addon4">
+                                    <button
+                                      class="btn btn-primary"
+                                      type="button"
+                                      @click="searchUrl(keywords)">
+                                      Search
+                                    </button>
+                                    <button
+                                      class="btn btn-outline-secondary"
+                                      type="button"
+                                      @click="keywords = null, results = null">
+                                      Clean
+                                    </button>
+                                  </div>
+                                </div>
+                                <p v-if="keywords && results">
+                                  <b>Resultados para "{{keywords }}"</b>
+                                  <br>
+                                  <small>{{ results ? results.length : 0  }} results(s)</small>
+                                </p>
+                                <ul class="list-group">
+                                  <li
+                                    class="list-group-item"
+                                    style="background-color: #F8F9FA"
+                                    v-for="result in results">
+                                    <button
+                                      type="button"
+                                      class="btn btn-link pl-0"
+                                      @click="goToLink(result.url)">
+                                      {{ result.name }}
+                                    </button>
+<!--
+                                    <p>
+                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </p>
+-->
+                                  </li>
+                                </ul>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                       </li>
                     </ul>
               </div>
@@ -79,6 +151,7 @@
     </div>
 </nav>
 <!-- / header-->
+
         <section id="idiomas" class="" >
     <div class="container-fluid  pt-3 pb-5">
         <div class="cont-language">
@@ -88,18 +161,11 @@
               <a href="" class="english"> English </a>
             </p>
          </div>
-<!--
-        <div class="cont-quienes-somos">
-            <div class="box-1"></div>
-            <h2>Somos <span> Lloyd's</span> </h2>
-            <p>Agency</p>
-            <div class="box-2"></div>
-          </div>
--->
  
     
   </div>
 </section>
+
 
 <section id="contacto" class="" >
       <div class="pt-3 pb-5">
@@ -338,16 +404,16 @@
                             <h3 style>SEND US A MESSAGE</h3>
                             <p>Please fill out the following form to get in touch as soon as possible</p>
                               <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Name"    name="name" required>
+                                <input  class="form-control" type="text" placeholder="Nombre"    name="name" required>
                               </div>
                               <div class="form-group">
                                 <input class="form-control"  type="email" type="email" placeholder="Email" name="email" required>
                               </div>
                               <div class="form-group">
-                                <input class="form-control"  type="text" type="email" placeholder="Subject" name="asunto" required>
+                                <input class="form-control"  type="text" type="email" placeholder="Asunto" name="asunto" required>
                               </div>
                               <div class="form-group">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"  placeholder="Message"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"  placeholder="Mensaje"></textarea>
                               </div>
                              <!-- <input class="form-input"  type="text" placeholder="Nombre*"    name="name" required>
                              <input  class="form-input"  type="email" placeholder="Correo electrónico*" name="email" required>
@@ -366,7 +432,9 @@
 
                        
                   </form>
-                  <h2 class="contact-title thanks" >¡Gracias! Nos pondremos en contacto contigo lo antes posible. </h2> <p class="contact-p thanks">No olvides revisar tu correo no deseado</p>
+                  <h2 class="contact-title thanks" >¡Gracias! 
+We will get in touch with you as soon as possible.</h2> <p class="contact-p thanks">
+Don't forget to check your spam</p>
                 </div> 
             </article>
         </div>
@@ -374,7 +442,6 @@
     </section>
  </section>
    <!--footer-->
-
    <footer id="footer" class="pb-2 pt-2">
         <div class="container">
           <div class="row">
@@ -403,75 +470,8 @@
         </div>
     </footer>
 
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="staticBackdrop"
-      data-backdrop="static"
-      data-keyboard="false"
-      tabindex="-1"
-      aria-labelledby="staticBackdropLabel"
-      aria-hidden="true">
-      <div class="modal-dialog" id="search">
-        <div
-          class="modal-content"
-          style="background-color: #F8F9FA; z-index: 2000 !important">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">
-              Search in the site
-            </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
 
-            <div class="input-group mb-2">
-              <input
-                type="text"
-                class="form-control"
-                aria-label="Recipient's username with two button addons"
-                aria-describedby="button-addon4"
-                v-model="keywords">
-              <div class="input-group-append" id="button-addon4">
-                <button
-                  class="btn btn-primary"
-                  type="button"
-                  @click="searchUrl(keywords)">
-                  Search
-                </button>
-                <button
-                  class="btn btn-outline-secondary"
-                  type="button"
-                  @click="keywords = null, results = null">
-                  Clean
-                </button>
-              </div>
-            </div>
-            <p v-if="keywords && results">
-              <b>Results for "{{keywords }}"</b>
-              <br>
-              <small>{{ results ? results.length : 0  }} result(s)</small>
-            </p>
-            <ul class="list-group">
-              <li
-                class="list-group-item"
-                style="background-color: #F8F9FA"
-                v-for="result in results">
-                <button
-                  type="button"
-                  class="btn btn-link pl-0"
-                  @click="goToLink(result.url)">
-                  {{ result.name }}
-                </button>
-                <p>{{ result.description }}</p>
-              </li>
-            </ul>
 
-          </div>
-        </div>
-      </div>
-    </div>
     <!--/footer-->
    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -593,6 +593,65 @@
         }
       });
     </script>
-    <script src="js/search.js"></script>
+    <script type="text/javascript">
+      var app = new Vue({
+        el: '#search',
+        data: {
+          content: [
+            {
+              name: 'Página de Inicio',
+              url: '/pca/index.html',
+              words: 'página de inicio red de oficinas quienes somos misión visión valores transportes marítimo carga siniestros'
+            },
+            {
+              name: 'Nosotros',
+              url: '/pca/index.html#nosotros',
+              words: 'nosotros '
+            },
+            {
+              name: 'Servicios',
+              url: '/pca/index.html#servicios',
+              words: 'servicios'
+            },
+            {
+              name: 'Siniestros',
+              url: '/pca/index.html#siniestros',
+              words: 'siniestros'
+            },
+            {
+              name: 'Gestión de Calidad',
+              url: '/pca/gestiondecalidad.html',
+              words: 'gestión de calidad'
+            },
+            {
+              name: "LLOYD's Agency",
+              url: '/pca/lloydsagency.html',
+              words: "somos LLOYD's agency conócenos datos mapa"
+            },
+            {
+              name: "Contacto",
+              url: '/pca/contacto.php',
+              words: "contacto mensaje oficinas ciudad de méxico guadalajara monterrey puebla veracruz hermosillo ciudad obregón tijuana culiacán león mexicali"
+            },
+          ],
+          results: null,
+          keywords: null
+        },
+        mounted(){
+
+        },
+        methods: {
+          searchUrl(text){
+            if(text){
+              this.results = this.content
+                         .filter( item  => item.words.includes(text.toLowerCase()) );
+            }
+          },
+          goToLink(url){
+            window.location.href = url;
+          }
+        }
+      });
+    </script>
     </body>
 </html

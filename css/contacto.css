@@ -55,7 +55,7 @@ src: url("fonts/AvenirLTStd-Black.otf");
     border: 0;
 }
 .card-header{
-        background: #336699;
+        background: #006098;
 }
 .grupo{
     border-radius:0;
@@ -203,14 +203,14 @@ form h3{
     line-height: 1.27;
     letter-spacing: 0.93px;
     text-align: left;
-    color: #336699;
+    color: #006098;
 }
 .container-button {
     display: flex;
     justify-content: flex-end;
 }
 .container-button .submit-btn{
-        background:#336699;
+        background:#006098;
         width: 128px;
         height: 36px;
         color: white;
