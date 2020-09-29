@@ -46,22 +46,22 @@
               <div class="menu mb-2">
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#company">Company</a>
+                        <a class="nav-link" href="index.html#nosotros">Nosotros</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#services">Services</a>
+                        <a class="nav-link" href="index.html#servicios">Servicios</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="index.html#sinister">Sinister</a>
+                        <a class="nav-link" href="index.html#siniestros">Siniestros</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link" href="quality-management.html">Quality Management</a>
+                        <a class="nav-link" href="gestiondecalidad.html">Gestión de Calidad</a>
                       </li>
                       <li class="nav-item pr-3">
                         <a class="nav-link" href="lloydsagency.html">LLOYD`S Agency</a>
                       </li>
                       <li class="nav-item pr-3">
-                        <a class="nav-link activado" href="contact-us.php">Contac us</a>
+                        <a class="nav-link activado" href="contacto.php">Contacto</a>
                       </li>
                       <li>
                         <button
@@ -83,9 +83,9 @@
     <div class="container-fluid  pt-3 pb-5">
         <div class="cont-language">
             <p>
-              <a href="../contacto.php" class="espaniol"> Español </a> 
+              <a href="" class="espaniol"> Español </a> 
               |
-              <a href="" class="english"> English </a>
+              <a href="en/contact-us.php" class="english"> English </a>
             </p>
          </div>
 <!--
@@ -120,9 +120,9 @@
                     <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#accordionExample">
                       <div class="card-body card-text">
                        <h4>Roberto López Vidrio</h4>
-                       <p>Managing Director</p>
+                       <p>Director General</p>
                        <h4>Julio C. López Sáinz</h4>
-                       <p>Deputy Director</p>
+                       <p>Director Adjunto</p>
                       </div>
                     </div>
                   </div>
@@ -140,7 +140,7 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div class="card-body">
                        <h4>Esfras Alejandro Pérez Sanchéz</h4>
-                       <p>Associate director Guadalajara</p>
+                       <p>Director Asociado Guadalajara</p>
                       </div>
                     </div>
                   </div>
@@ -158,7 +158,7 @@
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>L.A.E. Salvadore Rosas Romo</h4>
-                       <p>Office manager Monterrey</p>
+                       <p>Gerente de oficina Monterrey</p>
                       </div>
                     </div>
                   </div>
@@ -176,7 +176,7 @@
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Jose Uriel Alcaide Tirado</h4>
-                       <p>Associate director Puebla</p>
+                       <p>Director Asociado Puebla</p>
                       </div>
                     </div>
                   </div>
@@ -194,7 +194,7 @@
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Jose Uriel Alcaide Tirado</h4>
-                       <p>Associate director Veracruz</p>
+                       <p>Director Asociado Veracruz</p>
                       </div>
                     </div>
                   </div>
@@ -212,7 +212,7 @@
                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Erasmo Moreno Martínez</h4>
-                       <p>Associate director Hermosillo</p>
+                       <p>Director Asociado Hermosillo</p>
                       </div>
                     </div>
                   </div>
@@ -230,7 +230,7 @@
                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Dayanira Moreno M.</h4>
-                       <p>Associate director Ciudad Obregón</p>
+                       <p>Directora Asociada Ciudad Obregón</p>
                       </div>
                     </div>
                   </div>
@@ -248,7 +248,7 @@
                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Hugo S. Monje</h4>
-                       <p>Associate director Tijuana</p>
+                       <p>Director Asociado Tijuana</p>
                       </div>
                     </div>
                   </div>
@@ -266,7 +266,7 @@
                     <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Lic. Erasmo Moreno Martínez</h4>
-                       <p>Associate director Hermosillo</p>
+                       <p>Director Asociado Hermosillo</p>
                       </div>
                     </div>
                   </div>
@@ -284,7 +284,7 @@
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Christian Guzmán Carrera</h4>
-                       <p>Associate director León</p>
+                       <p>Director Asociado León</p>
                       </div>
                     </div>
                   </div>
@@ -302,7 +302,7 @@
                     <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
                       <div class="card-body">
                         <h4>Ing. Hugo S. Monje</h4>
-                       <p>Associate director Tijuana</p>
+                       <p>Director Asociado Tijuana</p>
                       </div>
                     </div>
                   </div>
@@ -335,19 +335,19 @@
                <div class="contact-details col-12 col-md-12 col-lg-8 mb-4 ">
                <form  method="post" id="contactform"  enctype="multipart/form-data">
                        <div class="container-form">
-                            <h3 style>SEND US A MESSAGE</h3>
-                            <p>Please fill out the following form to get in touch as soon as possible</p>
+                            <h3 style>ENVÍANOS UN MENSAJE</h3>
+                            <p>Por favor llena el siguiente formulario para ponernos en contacto a la brevedad</p>
                               <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Name"    name="name" required>
+                                <input  class="form-control" type="text" placeholder="Nombre"    name="name" required>
                               </div>
                               <div class="form-group">
                                 <input class="form-control"  type="email" type="email" placeholder="Email" name="email" required>
                               </div>
                               <div class="form-group">
-                                <input class="form-control"  type="text" type="email" placeholder="Subject" name="asunto" required>
+                                <input class="form-control"  type="text" type="email" placeholder="Asunto" name="asunto" required>
                               </div>
                               <div class="form-group">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"  placeholder="Message"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"  placeholder="Mensaje"></textarea>
                               </div>
                              <!-- <input class="form-input"  type="text" placeholder="Nombre*"    name="name" required>
                              <input  class="form-input"  type="email" placeholder="Correo electrónico*" name="email" required>
@@ -366,8 +366,7 @@
 
                        
                   </form>
-                  <h2 class="contact-title thanks" >¡Thank you! We will get in touch with you as soon as possible.</h2> <p class="contact-p thanks">
-Don't forget to check your spam</p>
+                  <h2 class="contact-title thanks" >¡Gracias! Nos pondremos en contacto contigo lo antes posible. </h2> <p class="contact-p thanks">No olvides revisar tu correo no deseado</p>
                 </div> 
             </article>
         </div>
@@ -380,12 +379,12 @@ Don't forget to check your spam</p>
           <div class="row">
             <div class="col-12 col-lg-4 pb-3 pt-3">
              <ul>
-                <p class="footer-title">LINK OF INTEREST</p>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html">Home</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#company">Company</a></li>
-                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#services">Services</a></li>
+                <p class="footer-title">LINK DE INTERES</p>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html">Inicio</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#nosotros">Nosotros</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="index.html#servicios">Servicios</a></li>
 <!--                <li class="pb-1 pt-1"> <a class="footer-link" href="">Leyes Códigos</a></li>-->
-                <li class="pb-1 pt-1"> <a class="footer-link" href="https://www.banxico.org.mx/tipcamb/tipCamIHAction.do">Exchange Rate $</a></li>
+                <li class="pb-1 pt-1"> <a class="footer-link" href="https://www.banxico.org.mx/tipcamb/tipCamIHAction.do">Tipo de cambio $</a></li>
              </ul>
               
             </div>
@@ -396,10 +395,10 @@ Don't forget to check your spam</p>
 -->
             </div>
             <div class="col-12 col-lg-4 pb-3 pt-3 text-right align-mobile-left">
-              <p class="footer-title">CONTACT US</p>
-              <a  href="contact-us.php"><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
-              <a href="https://www.proca.com.mx/english/AvisoPrivacidad/CompanyPolicyProcedures_PCA_LA-Guadalajara%20Mx(2018).pdf">
-              <p class="footer-text pt-5">PCA Group - Policies and procedures</p></a>
+              <p class="footer-title">CONTACTO</p>
+              <a  href="contacto.php"><img style="width: 110px;" class="pb-3 pt-2" src="images/logo-lloyds.svg" alt=""></a>
+              <a href="https://www.proca.com.mx/AvisoPrivacidad/AvisoPrivacidad(Ene2017).pdf">
+              <p class="footer-text pt-5">Grupo PCA - Aviso de privacidad</p></a>
             </div>
           </div>
         </div>
@@ -417,7 +416,7 @@ Don't forget to check your spam</p>
         <div class="modal-content" style="background-color: #F8F9FA">
           <div class="modal-header">
             <h5 class="modal-title" id="staticBackdropLabel">
-              Search in site
+              Buscar en el sitio
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -437,20 +436,20 @@ Don't forget to check your spam</p>
                   class="btn btn-primary"
                   type="button"
                   @click="searchUrl(keywords)">
-                  Search
+                  Buscar
                 </button>
                 <button
                   class="btn btn-outline-secondary"
                   type="button"
                   @click="keywords = null, results = null">
-                  Clear
+                  Limpiar
                 </button>
               </div>
             </div>
             <p v-if="keywords && results">
-              <b>Results for "{{keywords }}"</b>
+              <b>Resultados para "{{keywords }}"</b>
               <br>
-              <small>{{ results ? results.length : 0  }} result(s)</small>
+              <small>{{ results ? results.length : 0  }} resultado(s)</small>
             </p>
             <ul class="list-group">
               <li
@@ -507,7 +506,7 @@ Don't forget to check your spam</p>
             var myLatLng = { lat: 24.0666877, lng: -102.6205 };
             var locations = [
               {
-                title: 'Mexico City',
+                title: 'Ciudad de México',
                 position: {lat: 19.371721, lng: -99.192242},
                 markup: '<h4>Ciudad de México</h4><p>Periférico Sur 1661, A-12 1001 (Torres de Mixcoac)<br>Col. Lomas de Los Plateros, Del. Álvaro Obregón<br>México DF, CP 01480<br>Tel/Fax: (52 55) 5680-6966</p>'
               },
@@ -543,8 +542,8 @@ Don't forget to check your spam</p>
               },
               {
                 title: 'Tijuana',
-                position: {lat: 32.5255044, lng: -117.032795},
-                markup: '<h4>Tijuana</h4><p>Av. Melchor Ocampo No. 1860-7, Zona Centro.<br>Tijuana, B..C. CP. 22000<br>Tel: (52 664) 622 2498</p>'
+                position: {lat: 32.5019788, lng: -116.9038801},
+                markup: '<h4>Tijuana</h4><p>Calle Boca del Lobo Oriente # 6612<br>Fracc. Los Lobos Tijuana, B.C. CP. 22207<br>Tel: (52 664) 275 1199</p>'
               },
               {
                 title: 'Culiacán',
@@ -553,13 +552,13 @@ Don't forget to check your spam</p>
               },
               {
                 title: 'León',
-                position: {lat: 21.0979628, lng: -101.6200604},
-                markup: '<h4>León</h4><p>Circuito Portal Santa Úrsula No. 129-A,<br>Fracc. Portales De Santa Úrsula,<br>León, Gto. CP.37290<br>Tel: (52 477) 391 86 36 /37</p>'
+                position: {lat: 21.1398889, lng: -101.6943767},
+                markup: '<h4>León</h4><p>Dr. Rodolfo González Hurtado No. 104A, Col. Los Paraísos<br>León, Gto. CP. 37320<br>Tel: (52 477) 391 86 36 37</p>'
               },
               {
                 title: 'Mexicali',
-                position: {lat: 32.6316833, lng: -115.4547873},
-                markup: '<h4>Mexicali</h4><p>Piedras Negras No. 2091, Fracc. Calafia Mexicali,<br>B.C. CP 21040<br>Tel: (52 686) 5646456</p>'
+                position: {lat: 32.6266873, lng: -115.5783104},
+                markup: '<h4>Mexicali</h4><p>Av. Cuatro Ciénegas N° 2082 – 7 Col. Ex Ejido<br>Coahuila Mexicali, B.C. CP21360<br>Tel: (52 686) 564 6456'
               },
             ];
 

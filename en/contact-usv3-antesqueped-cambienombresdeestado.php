@@ -417,7 +417,7 @@ Don't forget to check your spam</p>
         <div class="modal-content" style="background-color: #F8F9FA">
           <div class="modal-header">
             <h5 class="modal-title" id="staticBackdropLabel">
-              Search in site
+              Buscar en el sitio
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -437,20 +437,20 @@ Don't forget to check your spam</p>
                   class="btn btn-primary"
                   type="button"
                   @click="searchUrl(keywords)">
-                  Search
+                  Buscar
                 </button>
                 <button
                   class="btn btn-outline-secondary"
                   type="button"
                   @click="keywords = null, results = null">
-                  Clear
+                  Limpiar
                 </button>
               </div>
             </div>
             <p v-if="keywords && results">
-              <b>Results for "{{keywords }}"</b>
+              <b>Resultados para "{{keywords }}"</b>
               <br>
-              <small>{{ results ? results.length : 0  }} result(s)</small>
+              <small>{{ results ? results.length : 0  }} resultado(s)</small>
             </p>
             <ul class="list-group">
               <li
@@ -507,7 +507,7 @@ Don't forget to check your spam</p>
             var myLatLng = { lat: 24.0666877, lng: -102.6205 };
             var locations = [
               {
-                title: 'Mexico City',
+                title: 'Ciudad de México',
                 position: {lat: 19.371721, lng: -99.192242},
                 markup: '<h4>Ciudad de México</h4><p>Periférico Sur 1661, A-12 1001 (Torres de Mixcoac)<br>Col. Lomas de Los Plateros, Del. Álvaro Obregón<br>México DF, CP 01480<br>Tel/Fax: (52 55) 5680-6966</p>'
               },
@@ -543,8 +543,8 @@ Don't forget to check your spam</p>
               },
               {
                 title: 'Tijuana',
-                position: {lat: 32.5255044, lng: -117.032795},
-                markup: '<h4>Tijuana</h4><p>Av. Melchor Ocampo No. 1860-7, Zona Centro.<br>Tijuana, B..C. CP. 22000<br>Tel: (52 664) 622 2498</p>'
+                position: {lat: 32.5019788, lng: -116.9038801},
+                markup: '<h4>Tijuana</h4><p>Calle Boca del Lobo Oriente # 6612<br>Fracc. Los Lobos Tijuana, B.C. CP. 22207<br>Tel: (52 664) 275 1199</p>'
               },
               {
                 title: 'Culiacán',
@@ -553,13 +553,13 @@ Don't forget to check your spam</p>
               },
               {
                 title: 'León',
-                position: {lat: 21.0979628, lng: -101.6200604},
-                markup: '<h4>León</h4><p>Circuito Portal Santa Úrsula No. 129-A,<br>Fracc. Portales De Santa Úrsula,<br>León, Gto. CP.37290<br>Tel: (52 477) 391 86 36 /37</p>'
+                position: {lat: 21.1398889, lng: -101.6943767},
+                markup: '<h4>León</h4><p>Dr. Rodolfo González Hurtado No. 104A, Col. Los Paraísos<br>León, Gto. CP. 37320<br>Tel: (52 477) 391 86 36 37</p>'
               },
               {
                 title: 'Mexicali',
-                position: {lat: 32.6316833, lng: -115.4547873},
-                markup: '<h4>Mexicali</h4><p>Piedras Negras No. 2091, Fracc. Calafia Mexicali,<br>B.C. CP 21040<br>Tel: (52 686) 5646456</p>'
+                position: {lat: 32.6266873, lng: -115.5783104},
+                markup: '<h4>Mexicali</h4><p>Av. Cuatro Ciénegas N° 2082 – 7 Col. Ex Ejido<br>Coahuila Mexicali, B.C. CP21360<br>Tel: (52 686) 564 6456'
               },
             ];
 
