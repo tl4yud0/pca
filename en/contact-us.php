@@ -27,7 +27,7 @@
   <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div class="container">
       <a href="index.html" class="navbar-brand" href="">
-          <img style="width: 170px;" src="images/logo-header-pca.png" alt="Grupo PCA">
+          <img style="width: 140px;" src="images/logo-header-pca.png" alt="Grupo PCA">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -45,22 +45,22 @@
               </div> 
               <div class="menu mb-2">
                     <ul class="navbar-nav ml-auto">
-                      <li class="nav-item pr-3">
+                      <li class="nav-item pr-1">
                         <a class="nav-link" href="index.html#company">Company</a>
                       </li>
-                      <li class="nav-item pr-3">
+                      <li class="nav-item pr-1">
                         <a class="nav-link" href="index.html#services">Services</a>
                       </li>
-                      <li class="nav-item pr-3">
+                      <li class="nav-item pr-1">
                         <a class="nav-link" href="index.html#sinister">Sinister</a>
                       </li>
-                      <li class="nav-item pr-3">
+                      <li class="nav-item pr-1">
                         <a class="nav-link" href="quality-management.html">Quality Management</a>
                       </li>
-                      <li class="nav-item pr-3">
+                      <li class="nav-item pr-1">
                         <a class="nav-link" href="lloydsagency.html">LLOYD`S Agency</a>
                       </li>
-                      <li class="nav-item pr-3">
+                      <li class="nav-item pr-1">
                         <a class="nav-link activado" href="contact-us.php">Contac us</a>
                       </li>
                       <li>

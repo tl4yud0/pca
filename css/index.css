@@ -784,7 +784,7 @@ body{
   }
   
 
-@media (max-width: 1210px) { 
+@media (max-width: 1280px) { 
     
        #carousel2 .carousel-item .cont-texcarusel {
     width: 600px;
@@ -815,194 +815,6 @@ body{
 }
 */
 
-    
-}
-    
-
-@media (max-width: 991.98px) { 
-    #nosotros .quienesSomos-container{
-    background: url(none);
-}
-    
-    
-    #carousel2 .carousel-item .cont-texcarusel {
-    width: 600px;
-    position: absolute;
-    top: 55%;
-    left: 47%;
-    transform: translate(-50%, -75%);
-}
-    
-    #siniestros{
-        position: none;
-/*        outline: 1px solid red;*/
-    }
-    #siniestros .contenedor-industrias .contenedor-industrias-texto{
-    width: 500px;color:white;display: block;
-}
-
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-center p{
-     display: none;
-    }
-    
-
-    #siniestros .contenedor-industrias{
-        position: relative;
-        background: #ffffff;
-        opacity: 1;
-    }
-
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-left{
-        align-items: center;
-        margin-top: 20px;
-    }
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right{
-        align-items: center;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right p{
-        text-align: center;
-    }
-    
-    
-    #header .container .navbar-collapse.collapse{
-        justify-content: flex-start;
-    
-    }
-    .contenet-menu {
-        flex-direction: column;
-        display: flex !important;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-    .align-mobile-left{
-        text-align: left !important;
-
-    }
-    
-     #servicios{
-        position: none;
-     /* outline: 1px solid red; */
-    }
-
-
-#servicios .contenedor-industrias .contenedor-industrias-texto{
-    width: 500px;color:white;display: block;
-}
-
-#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
- display: none;
-}
-    
-
-    #servicios .contenedor-industrias{
-        position: relative;
-        background: #111;
-        opacity: 1;
-    }
-
-    #servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
-        align-items: center;
-        margin-top: 20px;
-    }
-    #servicios .contenedor-industrias .contenedor-industrias-texto .text-right{
-        align-items: center;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    #servicios .contenedor-industrias .contenedor-industrias-texto .text-right p{
-        text-align: center;
-    }
-
-
-/*
-    #main .carousel-item .cont-texcarusel {
-        width: 75%;
-        position: absolute;
-    }
-    #main .carousel-item .cont-texcarusel .cont-text {
-        position: relative;
-        width: 50%;
-    }
-    
-     #main .carousel-item .cont-texcarusel .box-1{
-         width: 15px;
-         height: 15px;
-         background-color: #f9e400;
-         position: absolute;
-         left: -20px;
-         top: 25px;
-     }
-     #main .carousel-item .cont-texcarusel h2{
-        font-size: 50px;
-        font-weight: 900;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.05;
-        letter-spacing: normal;
-        text-align: left;
-        color: #ffffff;
-     }
-     #main .carousel-item .cont-texcarusel h2 span{
-          font-weight: bolder;
-     }
-    
-     #main .carousel-item .cont-texcarusel .box-2{
-         width: 15px;
-         height: 15px;
-         background-color: #f9e400;
-         position: absolute;
-         right: -10px;
-         bottom: 25px;
-     }
-     #main .carousel-item .cont-texcarusel .cont-right{
-         display: flex;
-         justify-content: flex-end;
-         flex-direction: column;
-         align-items: flex-end;
-     }
-     #main .carousel-item .cont-texcarusel .cont-right .line-cont{
-        width: 200px;
-        height: 5px;
-        border-radius: 6px;
-        background-color: #fbf100;
-        right: 0px;
-        position: a;
-     }
-     #main .carousel-item .cont-texcarusel .cont-right p{
-        font-size: 10px;
-        font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.24;
-        letter-spacing: 1.38px;
-        text-align: right;
-        color: white;
-        margin-top: 20px;
-        margin-left: 50px;
-        width: 300px;
-        margin-bottom: 30px;
-    }
-    
-    #main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
-        width: 120px;
-        height: 40px;
-        background-color: #006098;
-        color: white;
-        font-size: 20px;
-        font-weight: 900;
-        font-stretch: normal;
-        font-style: normal;
-        color: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-*/
-    
     #main .carousel-item .cont-texcarusel {
     width: 400px;
     position: absolute;
@@ -1215,6 +1027,409 @@ body{
     justify-content: center;
     align-items: center;
 }
+   
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 991.98px) { 
+    #nosotros .quienesSomos-container{
+    background: url(none);
+}
+    
+    
+    #carousel2 .carousel-item .cont-texcarusel {
+    width: 600px;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    transform: translate(-50%, -75%);
+}
+    
+    #siniestros{
+        position: none;
+/*        outline: 1px solid red;*/
+    }
+    #siniestros .contenedor-industrias .contenedor-industrias-texto{
+    width: 500px;color:white;display: block;
+}
+
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-center p{
+     display: none;
+    }
+    
+
+    #siniestros .contenedor-industrias{
+        position: relative;
+        background: #ffffff;
+        opacity: 1;
+    }
+
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-left{
+        align-items: center;
+        margin-top: 20px;
+    }
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right{
+        align-items: center;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #siniestros .contenedor-industrias .contenedor-industrias-texto .text-right p{
+        text-align: center;
+    }
+    
+    
+    #header .container .navbar-collapse.collapse{
+        justify-content: flex-start;
+    
+    }
+    .contenet-menu {
+        flex-direction: column;
+        display: flex !important;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .align-mobile-left{
+        text-align: left !important;
+
+    }
+    
+     #servicios{
+        position: none;
+     /* outline: 1px solid red; */
+    }
+
+
+#servicios .contenedor-industrias .contenedor-industrias-texto{
+    width: 500px;color:white;display: block;
+}
+
+#servicios .contenedor-industrias .contenedor-industrias-texto .text-center p{
+ display: none;
+}
+    
+
+    #servicios .contenedor-industrias{
+        position: relative;
+        background: #111;
+        opacity: 1;
+    }
+
+    #servicios .contenedor-industrias .contenedor-industrias-texto .text-left{
+        align-items: center;
+        margin-top: 20px;
+    }
+    #servicios .contenedor-industrias .contenedor-industrias-texto .text-right{
+        align-items: center;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #servicios .contenedor-industrias .contenedor-industrias-texto .text-right p{
+        text-align: center;
+    }
+
+
+/*
+    #main .carousel-item .cont-texcarusel {
+        width: 75%;
+        position: absolute;
+    }
+    #main .carousel-item .cont-texcarusel .cont-text {
+        position: relative;
+        width: 50%;
+    }
+    
+     #main .carousel-item .cont-texcarusel .box-1{
+         width: 15px;
+         height: 15px;
+         background-color: #f9e400;
+         position: absolute;
+         left: -20px;
+         top: 25px;
+     }
+     #main .carousel-item .cont-texcarusel h2{
+        font-size: 50px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.05;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+     }
+     #main .carousel-item .cont-texcarusel h2 span{
+          font-weight: bolder;
+     }
+    
+     #main .carousel-item .cont-texcarusel .box-2{
+         width: 15px;
+         height: 15px;
+         background-color: #f9e400;
+         position: absolute;
+         right: -10px;
+         bottom: 25px;
+     }
+     #main .carousel-item .cont-texcarusel .cont-right{
+         display: flex;
+         justify-content: flex-end;
+         flex-direction: column;
+         align-items: flex-end;
+     }
+     #main .carousel-item .cont-texcarusel .cont-right .line-cont{
+        width: 200px;
+        height: 5px;
+        border-radius: 6px;
+        background-color: #fbf100;
+        right: 0px;
+        position: a;
+     }
+     #main .carousel-item .cont-texcarusel .cont-right p{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.24;
+        letter-spacing: 1.38px;
+        text-align: right;
+        color: white;
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    #main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
+        width: 120px;
+        height: 40px;
+        background-color: #006098;
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+*/
+    
+    #main .carousel-item .cont-texcarusel {
+    width: 400px;
+    position: absolute;
+    top: 38%;
+    left: 55%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel .cont-text {
+    position: relative;
+    width: 390px;
+}
+
+ #main .carousel-item .cont-texcarusel .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -45px;
+     top: 30px;
+ }
+ #main .carousel-item .cont-texcarusel h2{
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 43px;
+     bottom: 25px;
+ }
+#main .carousel-item .cont-texcarusel .box-cuadro1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 133px;
+     bottom: 25px;
+ }
+#main .carousel-item .cont-texcarusel .box-cuadro2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 153px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro3{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 23px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro4{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 53px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro5{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 143px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #006098;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+#main .carousel-item .cont-texcarusel-grande {
+    width: 400px;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel-grande .cont-text {
+    position: relative;
+    width: 390px;
+}
+
+ #main .carousel-item .cont-texcarusel-grande .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -45px;
+     top: 30px;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2{
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel-grande .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: -13px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel-grande .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #006098;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
     
 }
@@ -1248,6 +1463,220 @@ body{
     color: #fff;
         
     }
+    
+    #main .carousel-item .cont-texcarusel {
+    width: 400px;
+    position: absolute;
+    top: 52%;
+    left: 55%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel .cont-text {
+    position: relative;
+    width: 390px;
+}
+
+ #main .carousel-item .cont-texcarusel .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -45px;
+     top: 30px;
+ }
+ #main .carousel-item .cont-texcarusel h2{
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 43px;
+     bottom: 25px;
+ }
+#main .carousel-item .cont-texcarusel .box-cuadro1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 133px;
+     bottom: 25px;
+ }
+#main .carousel-item .cont-texcarusel .box-cuadro2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 153px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro3{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 23px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro4{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 53px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .box-cuadro5{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: 143px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #006098;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+#main .carousel-item .cont-texcarusel-grande {
+    width: 400px;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -75%);
+}
+#main .carousel-item .cont-texcarusel-grande .cont-text {
+    position: relative;
+    width: 390px;
+}
+
+ #main .carousel-item .cont-texcarusel-grande .box-1{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     left: -45px;
+     top: 30px;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2{
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ }
+ #main .carousel-item .cont-texcarusel-grande h2 span{
+      font-weight: bolder;
+ }
+
+ #main .carousel-item .cont-texcarusel-grande .box-2{
+     width: 30px;
+     height: 30px;
+     background-color: #f9e400;
+     position: absolute;
+     right: -13px;
+     bottom: 25px;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right .line-cont{
+    width: 440px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #fbf100;
+    right: 0px;
+    position: a;
+ }
+ #main .carousel-item .cont-texcarusel-grande .cont-right p{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 1.38px;
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 435px;
+    margin-bottom: 20px;
+}
+
+#main .carousel-item .cont-texcarusel-grande .cont-right button.btn.btn-pca{
+    width: 280px;
+    height: 50px;
+    background-color: #006098;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
 }
 
 @media (max-width: 480px){

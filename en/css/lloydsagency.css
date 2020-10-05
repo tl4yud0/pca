@@ -56,7 +56,7 @@ padding-top: 140px;
      background-color: #f9e400;
      position: absolute;
      left: -35px;
-     bottom: 70px;
+     bottom: 130px;
  }
  #lloydsagency .container-fluid .cont-quienes-somos h2{
      font-size: 55.5px;
@@ -86,7 +86,7 @@ padding-top: 140px;
      height: 25px;
      background-color: #f9e400;
      position: absolute;
-     top: 15px;
+     top: 75px;
      right: -35px;
  }
 
@@ -168,3 +168,27 @@ padding-top: 140px;
 .container-button a:nth-child(1) p span{
      font-weight: bold;
 }
+@media (max-width: 991.98px) {
+    #lloydsagency .container-fluid{
+     background: url(../images/quienessomos-2.jpg);
+     height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+    
+ }
+}
+
+
+@media (max-width: 480px){
+    #lloydsagency .container-fluid{
+     background: url(../images/quienessomos-3.jpg);
+     height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+    
+ }
+    }
